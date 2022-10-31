@@ -8,10 +8,4 @@ I have spent the last decade working in K-12 educational software. Before that I
 
 ### 📈 Stats
 
-<!-- ![My GitHub Statistics](https://github-readme-stats.vercel.app/api?username=donatj&show_icons=true&count_private=true&hide_title=true&disable_animations=true&hide_rank=true) -->
-
-<img src="https://raw.githubusercontent.com/donatj/donatj/master/metrics.svg" align=left width=45%>
-
-<img src="https://raw.githubusercontent.com/donatj/donatj/master/metrics.plugin.habits.charts.svg" align=left width=45%>
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=donatj&layout=compact&count_private=true&hide_title=true&langs_count=8&hide=Visual%20Basic,HTML)
