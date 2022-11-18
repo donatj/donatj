@@ -4,7 +4,7 @@ I am a PHP and Go developer based in Minneapolis. Full stack capable, I generall
 
 I ❤️ tiny reusable modules with single responsibilities.
 
-I have spent the last decade working in K-12 educational software. Before that I spent five years building industrial and b2b software.
+I have spent the last decade working in EdTech. Before that I spent five years building industrial and b2b software.
 
 ### 📈 Stats
 
