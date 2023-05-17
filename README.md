@@ -1,6 +1,6 @@
 ### Hello!
 
-I am a PHP and Go developer based in Minneapolis. Full stack capable, I generally prefer backend and data work as I find it less prickly.
+I am a PHP, Go and TypeScript developer based in Minneapolis. Full stack capable, I generally prefer backend and data work as I find it less prickly.
 
 I ❤️ tiny reusable modules with single responsibilities.
 
