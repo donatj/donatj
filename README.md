@@ -2,7 +2,7 @@
 
 I am a PHP, Go and TypeScript developer based in Minneapolis. 
 
-I can work anywhere in the stack, but I’m happiest in the backend. —moving data, pushing bits around, making things fast.
+I work across the entire stack, but I’m happiest in the backend. Moving data, pushing bytes around, making things fast.
 
 I ❤️ tiny reusable parts with single responsibilities and no side effects. I keep code simple, clear, and easy for anyone to read.
 
