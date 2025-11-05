@@ -1,10 +1,12 @@
 ### Hello!
 
-I am a PHP, Go and TypeScript developer based in Minneapolis. Full stack capable, I generally prefer backend and data work as I find it less prickly.
+I am a PHP, Go and TypeScript developer based in Minneapolis. 
 
-I ❤️ tiny reusable modules with single responsibilities.
+I can work anywhere in the stack, but I’m happiest in the backend. —moving data, pushing bits around, making things fast.
 
-I have spent the last decade working in EdTech. Before that I spent five years building industrial and b2b software.
+I ❤️ tiny reusable parts with single responsibilities and no side effects. I keep code simple, clear, and easy for anyone to read.
+
+I’ve spent fifteen years in EdTech keeping old systems running and new ones from catching fire. Before that I built industrial and B2B tools where things had to work because people depended on them.
 
 ### 📈 Stats
 
