@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What donatj has been up to in the last 14 days
 
-From July 15–29, donatj has been heavily focused on Shielded.dev, contributing a broad set of improvements across its application, CLI, and GitHub Action projects. Highlights include [hardening authentication cookies](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), [adding hosted-first documentation](https://github.com/ShieldedDotDev/shieldeddotdev/pull/359), and [adding an optional shield-key input](https://github.com/ShieldedDotDev/shielded-action/pull/13).
+From July 15–29, donatj has been especially active across his personal account and ShieldedDotDev projects. He worked on [hardening authentication cookies](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), and [converting a GitHub Action to TypeScript](https://github.com/ShieldedDotDev/shielded-action/pull/19). He also added [environment-based token fallback](https://github.com/ShieldedDotDev/shielded-action/pull/17) and [a shield URL action output](https://github.com/ShieldedDotDev/shielded-action/pull/18). ([github.com](https://github.com/search?q=author%3Adonatj+created%3A2026-07-15..2026-07-29&type=pullrequests))
 
-He also strengthened build and release workflows with [checks that compiled output is committed](https://github.com/ShieldedDotDev/shielded-action/pull/14), [detection of untracked compiled files](https://github.com/ShieldedDotDev/shielded-action/pull/15), and [TypeScript conversion of the action](https://github.com/ShieldedDotDev/shielded-action/pull/19). In his personal repositories, he opened [a weekly automated README activity report](https://github.com/donatj/donatj/pull/1) and [a setup-node enhancement for action.yml runtime targeting](https://github.com/donatj/setup-node/pull/1). ([github.com](https://github.com/search?q=author%3Adonatj+created%3A2026-07-15..2026-07-29&type=pullrequests))
+He also made a substantial batch of CI, generated-artifact, and README updates in `ShieldedDotDev/shielded-cli-js`, contributed [support for `node-version-file` in JavaScript actions](https://github.com/actions/setup-node/pull/1597), and opened [an automated weekly README activity report](https://github.com/donatj/donatj/pull/1). ([github.com](https://github.com/search?q=author%3Adonatj+committer-date%3A2026-07-15..2026-07-29&type=commits))
+
+#### He has been thinking about
+
+Making the pixel-circle generator more capable and easier to use for large, grid-based builds. ([donatstudios.com](https://donatstudios.com/PixelCircleGenerator?utm_source=openai))
 
 <small>2026-07-29</small>
