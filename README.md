@@ -10,14 +10,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 <!-- AI GENERATED REPORT -->
 
-### What donatj has been up to in the last 14 days
+### What I've been up to recently
 
-From July 15–29, donatj has been especially active across his personal account and ShieldedDotDev projects. He worked on [hardening authentication cookies](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), and [converting a GitHub Action to TypeScript](https://github.com/ShieldedDotDev/shielded-action/pull/19). He also added [environment-based token fallback](https://github.com/ShieldedDotDev/shielded-action/pull/17) and [a shield URL action output](https://github.com/ShieldedDotDev/shielded-action/pull/18). ([github.com](https://github.com/search?q=author%3Adonatj+created%3A2026-07-15..2026-07-29&type=pullrequests))
+I've been active across my personal account and ShieldedDotDev projects. I worked on [hardening authentication cookies](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), and [converting a GitHub Action to TypeScript](https://github.com/ShieldedDotDev/shielded-action/pull/19). I also added [environment-based token fallback](https://github.com/ShieldedDotDev/shielded-action/pull/17) and [a shield URL action output](https://github.com/ShieldedDotDev/shielded-action/pull/18).
 
-He also made a substantial batch of CI, generated-artifact, and README updates in `ShieldedDotDev/shielded-cli-js`, contributed [support for `node-version-file` in JavaScript actions](https://github.com/actions/setup-node/pull/1597), and opened [an automated weekly README activity report](https://github.com/donatj/donatj/pull/1). ([github.com](https://github.com/search?q=author%3Adonatj+committer-date%3A2026-07-15..2026-07-29&type=commits))
+I also made a substantial batch of CI, generated-artifact, and README updates in `ShieldedDotDev/shielded-cli-js`, contributed [support for `node-version-file` in JavaScript actions](https://github.com/actions/setup-node/pull/1597), and opened [an automated README activity report](https://github.com/donatj/donatj/pull/1).
 
-#### He has been thinking about
+#### What I have been thinking about
 
-Making the pixel-circle generator more capable and easier to use for large, grid-based builds. ([donatstudios.com](https://donatstudios.com/PixelCircleGenerator?utm_source=openai))
+I've been thinking about making the pixel-circle generator more capable and easier to use for large, grid-based builds. ([donatstudios.com](https://donatstudios.com/PixelCircleGenerator?utm_source=openai))
 
-<small>2026-07-29</small>
+Last update: 2026-07-29
