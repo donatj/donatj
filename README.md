@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I've been active across my personal account and ShieldedDotDev projects. I worked on [hardening authentication cookies](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), and [converting a GitHub Action to TypeScript](https://github.com/ShieldedDotDev/shielded-action/pull/19). I also added [environment-based token fallback](https://github.com/ShieldedDotDev/shielded-action/pull/17) and [a shield URL action output](https://github.com/ShieldedDotDev/shielded-action/pull/18).
+I've been working across several small tools, including `unic`, `mpo`, `p9p2000`, `loggre`, `tabasco`, and `prefwatch`, with a focus on Go, PHP, TypeScript, and build tooling. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
 
-I also made a substantial batch of CI, generated-artifact, and README updates in `ShieldedDotDev/shielded-cli-js`, contributed [support for `node-version-file` in JavaScript actions](https://github.com/actions/setup-node/pull/1597), and opened [an automated README activity report](https://github.com/donatj/donatj/pull/1).
+In `mpo`, I merged [a pull request adding macOS universal builds, signing, packaging, and notarization support](https://github.com/donatj/mpo/pull/31). ([github.com](https://github.com/donatj/mpo/pull/31))
 
-#### What I have been thinking about
-
-I've been thinking about making the pixel-circle generator more capable and easier to use for large, grid-based builds. ([donatstudios.com](https://donatstudios.com/PixelCircleGenerator?utm_source=openai))
-
-Last update: 2026-07-29
+Last update: 2026-07-30
