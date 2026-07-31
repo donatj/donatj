@@ -13,6 +13,11 @@ function decodeCodePoint(codePoint, radix) {
 	return value <= 0x10ffff ? String.fromCodePoint(value) : "";
 }
 
+function positiveInteger(value, fallback) {
+	const parsed = Number(value);
+	return Number.isSafeInteger(parsed) && parsed > 0 ? parsed : fallback;
+}
+
 export function cleanText(html) {
 	return decodeNumericEntities(html)
 		.replace(/<p>/gi, "\n\n")
@@ -97,7 +102,7 @@ export async function collectHackerNewsActivity({
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
 	const activity = await collectHackerNewsActivity({
 		username: process.env.HN_USERNAME ?? "donatj",
-		days: Number(process.env.HN_DAYS ?? 14),
+		days: positiveInteger(process.env.HN_DAYS, 14),
 	});
 
 	process.stdout.write(`${formatHackerNewsActivity(activity)}\n`);
