@@ -1,7 +1,6 @@
 import { fileURLToPath } from "node:url";
 
 const apiBase = "https://hacker-news.firebaseio.com/v0";
-const itemBaseURL = "https://news.ycombinator.com/item?id=";
 
 function decodeNumericEntities(text) {
 	return text
@@ -42,7 +41,6 @@ function recentItems(items, cutoff, maxItems) {
 		.map((item) => ({
 			type: item.type,
 			createdAt: new Date(item.time * 1000).toISOString(),
-			url: `${itemBaseURL}${item.id}`,
 			text: cleanText(item.text ?? item.title ?? ""),
 		}))
 		.filter((item) => item.text)
@@ -59,7 +57,7 @@ export function formatHackerNewsActivity(activity) {
 	return [
 		"Recent Hacker News activity:",
 		...activity.items.map(
-			(item) => `- ${item.type === "comment" ? "Comment" : "Story"}: ${truncate(item.text)}\n  Source: ${item.url}`,
+			(item) => `- ${item.type === "comment" ? "Comment" : "Story"}: ${truncate(item.text)}`,
 		),
 	].join("\n");
 }
