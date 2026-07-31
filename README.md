@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been working across ShieldedDotDev projects: hardening authentication cookies, adding user-key shield URLs, and converting a GitHub Action to TypeScript. I also added environment-based token fallback and a shield URL action output.
+I’ve been deep in ShieldedDotDev, improving the path from user tokens to reliable shield updates across the service, CLI, and GitHub Action. I added [bearer-token updates and a Preact dashboard](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356), [user-token support in the CLI](https://github.com/ShieldedDotDev/shielded-cli-js/pull/147), and [optional shield keys in the Action](https://github.com/ShieldedDotDev/shielded-action/pull/13), along with CI checks that keep generated builds and status badges honest.
 
-I’ve made CI, generated-artifact, and README improvements in `shielded-cli-js`, contributed [`support for action.yml in node-version-file`](https://github.com/actions/setup-node/pull/1597), and opened [`an automated weekly README activity report`](https://github.com/donatj/donatj/pull/1). I also worked on [`hardening authentication cookies`](https://github.com/ShieldedDotDev/shieldeddotdev/pull/361), [`serving shields by user key`](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360), [`converting an action to TypeScript`](https://github.com/ShieldedDotDev/shielded-action/pull/19), [`reading an action token from the environment`](https://github.com/ShieldedDotDev/shielded-action/pull/17), and [`exposing the shield URL as an action output`](https://github.com/ShieldedDotDev/shielded-action/pull/18).
-
-#### What I have been thinking about
-
-I’ve been thinking about making my pixel-circle generator more capable and easier to use for large, grid-based builds.
+I’ve also been tinkering with my own tools: [SQL dump parsing without loading data into MySQL](https://github.com/donatj/sqlread), experimental 9P filesystem support, a tab-wrangling extension, and [macOS universal builds with signing and notarization for MPO tools](https://github.com/donatj/mpo/pull/31). It’s been a nice mix of practical developer infrastructure and small utilities that make awkward workflows a little smoother.
 
 Last update: 2026-07-31
