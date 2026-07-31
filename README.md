@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I've been back in the workshop on a collection of small, focused utilities across Go, PHP, and TypeScript—working on things like querying SQL dumps directly, experimenting with 9P stream wrappers, managing browser tabs, parsing logs, and watching macOS preferences. It's been a nice mix of practical tools and interesting low-level experiments.
+I’ve been spending time on a collection of small, practical tools in Go and PHP—especially utilities for handling data and files. That includes work around querying MySQL dumps directly and experimenting with Plan 9’s 9P2000 protocol through PHP stream wrappers.
 
-I've also been improving MPO's release workflow so it can produce universal macOS builds, sign and package them, and submit them for notarization in [a pull request that adds universal builds, signing, packaging, and notarization](https://github.com/donatj/mpo/pull/31).
+I also moved my MPO photo encoder/decoder closer to being easier to ship on macOS, adding universal binaries, signing, packaging, and notarization support in [a macOS release workflow](https://github.com/donatj/mpo/pull/31).
 
 Last update: 2026-07-31
