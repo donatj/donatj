@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deep in ShieldedDotDev, improving the path from user tokens to reliable shield updates across the service, CLI, and GitHub Action. I added [bearer-token updates and a Preact dashboard](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356), [user-token support in the CLI](https://github.com/ShieldedDotDev/shielded-cli-js/pull/147), and [optional shield keys in the Action](https://github.com/ShieldedDotDev/shielded-action/pull/13), along with CI checks that keep generated builds and status badges honest.
+I've been back in the workshop on a collection of small, focused utilities across Go, PHP, and TypeScript—working on things like querying SQL dumps directly, experimenting with 9P stream wrappers, managing browser tabs, parsing logs, and watching macOS preferences. It's been a nice mix of practical tools and interesting low-level experiments.
 
-I’ve also been tinkering with my own tools: [SQL dump parsing without loading data into MySQL](https://github.com/donatj/sqlread), experimental 9P filesystem support, a tab-wrangling extension, and [macOS universal builds with signing and notarization for MPO tools](https://github.com/donatj/mpo/pull/31). It’s been a nice mix of practical developer infrastructure and small utilities that make awkward workflows a little smoother.
+I've also been improving MPO's release workflow so it can produce universal macOS builds, sign and package them, and submit them for notarization in [a pull request that adds universal builds, signing, packaging, and notarization](https://github.com/donatj/mpo/pull/31).
 
 Last update: 2026-07-31
