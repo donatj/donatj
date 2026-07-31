@@ -2,6 +2,10 @@
 	"name": "donatj-readme-report",
 	"private": true,
 	"type": "module",
+	"scripts": {
+		"generate-weekly-report": "node get-hn-activity.mjs | node generate-weekly-report.mjs",
+		"test": "node --test"
+	},
 	"dependencies": {
 		"openai": "7.1.0"
 	}
