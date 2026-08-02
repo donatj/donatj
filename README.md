@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been spending a lot of time on Shielded.dev, improving the badge service with bearer-token API updates, user token management, and a Preact-based dashboard. I also tightened the surrounding GitHub Action and CLI tooling so generated builds are checked consistently. [I added bearer-token shield updates and migrated the dashboard to Preact](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
+I’ve been building a handful of small, practical tools across Go, PHP, and TypeScript: querying MySQL dumps without loading them into MySQL, experimenting with a PHP 9P2000 stream wrapper, parsing logs, and wrangling browser tabs. I enjoy turning narrow problems into compact utilities I can understand end to end.
 
-I’ve also been polishing smaller developer tools: adding macOS signing and packaging support to `mpo`, updating `sqlread` for Go 1.26, and contributing support for `node-version-file` to GitHub’s Node setup action. [I proposed resolving the Node runtime from `node-version-file`](https://github.com/actions/setup-node/pull/1597).
+I’ve also been giving `mpo` a more complete release workflow with [universal macOS builds, signing, packaging, and notarization](https://github.com/donatj/mpo/pull/31). It’s satisfying to add the release polish that helps small tools become genuinely useful.
 
-#### What I have been thinking about
+### What I have been thinking about
 
-I’ve been thinking more about how much good software still depends on careful review and deliberate guardrails. AI can help produce code, but I still want to understand what I’m committing, keep changes on the right branches, and treat QA and test environments as essential parts of delivering working software.
+I’ve been thinking about how AI coding tools change the balance between speed and control. I like the help they provide, but I still want explicit branches, reviewable pull requests, and guardrails that keep automation predictable.
 
-Last update: 2026-08-01
+Last update: 2026-08-02
