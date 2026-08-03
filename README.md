@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building a handful of small, practical tools across Go, PHP, and TypeScript: querying MySQL dumps without loading them into MySQL, experimenting with a PHP 9P2000 stream wrapper, parsing logs, and wrangling browser tabs. I enjoy turning narrow problems into compact utilities I can understand end to end.
+I’ve been spending a lot of time improving Shielded.dev, adding bearer-token support, user token management, and a Preact dashboard while tightening the GitHub Action and CLI tooling around it. I’ve also been polishing a few personal Go tools, including macOS signing and packaging for `mpo` and Go 1.26 updates for `sqlread`. [I added bearer-token shield updates and migrated the dashboard to Preact](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
 
-I’ve also been giving `mpo` a more complete release workflow with [universal macOS builds, signing, packaging, and notarization](https://github.com/donatj/mpo/pull/31). It’s satisfying to add the release polish that helps small tools become genuinely useful.
+I’ve also been contributing to GitHub’s Node setup action by adding support for resolving the Node runtime from a JavaScript action’s `action.yml`. [I added support for reading Node versions from action metadata](https://github.com/actions/setup-node/pull/1597).
 
-### What I have been thinking about
+#### What I have been thinking about
 
-I’ve been thinking about how AI coding tools change the balance between speed and control. I like the help they provide, but I still want explicit branches, reviewable pull requests, and guardrails that keep automation predictable.
+I’ve been thinking more about how good software still depends on careful review and deliberate guardrails. AI can help produce code, but I still want to understand what I’m committing, keep changes on the right branches, and treat testing and QA as essential parts of delivering working software.
 
-Last update: 2026-08-02
+Last update: 2026-08-03
