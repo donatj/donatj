@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been spending a lot of time improving Shielded.dev, adding bearer-token support, user token management, and a Preact dashboard while tightening the GitHub Action and CLI tooling around it. I’ve also been polishing a few personal Go tools, including macOS signing and packaging for `mpo` and Go 1.26 updates for `sqlread`. [I added bearer-token shield updates and migrated the dashboard to Preact](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
+I’ve been building a little collection of practical tools: querying MySQL dumps without loading them into MySQL, parsing logs, generating context-aware files with a Go-based `touch` alternative, experimenting with a PHP 9P2000 stream wrapper, and making browser tabs easier to manage. They’re all small, focused projects, but I enjoy turning annoying everyday problems into tools I can understand end to end. ([github.com](https://github.com/donatj?tab=repositories))
 
-I’ve also been contributing to GitHub’s Node setup action by adding support for resolving the Node runtime from a JavaScript action’s `action.yml`. [I added support for reading Node versions from action metadata](https://github.com/actions/setup-node/pull/1597).
+I’ve also been thinking more about AI-assisted development and the balance between speed and control. I appreciate the boost, but I still want explicit branches, reviewable changes, and enough understanding of the code to stand behind what I commit.
 
-#### What I have been thinking about
-
-I’ve been thinking more about how good software still depends on careful review and deliberate guardrails. AI can help produce code, but I still want to understand what I’m committing, keep changes on the right branches, and treat testing and QA as essential parts of delivering working software.
-
-Last update: 2026-08-03
+Last update: 2026-08-04
