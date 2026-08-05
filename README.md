@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building a little collection of practical tools: querying MySQL dumps without loading them into MySQL, parsing logs, generating context-aware files with a Go-based `touch` alternative, experimenting with a PHP 9P2000 stream wrapper, and making browser tabs easier to manage. They’re all small, focused projects, but I enjoy turning annoying everyday problems into tools I can understand end to end. ([github.com](https://github.com/donatj?tab=repositories))
+I’ve been deep in Shielded.dev, building out API-managed shield badges with bearer-token support, user token management, and a Preact dashboard. It’s been a satisfying mix of backend work, schema changes, and frontend cleanup in [a larger shield and dashboard overhaul](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
 
-I’ve also been thinking more about AI-assisted development and the balance between speed and control. I appreciate the boost, but I still want explicit branches, reviewable changes, and enough understanding of the code to stand behind what I commit.
+I’ve also been contributing to GitHub Actions, improving `setup-node` so it can read a Node version directly from a JavaScript action’s `action.yml` metadata. I’ve been thinking a lot about keeping software simple and understandable, and about pairing AI-assisted development with careful review, testing, and sensible guardrails.
 
-Last update: 2026-08-04
+### What I have been thinking about
+
+I’m increasingly convinced that most software benefits more from straightforward data flows and small, focused tools than from layers of client-side complexity. AI can help move quickly, but I still want to understand the code I ship and preserve the human judgment that makes software dependable.
+
+Last update: 2026-08-05
