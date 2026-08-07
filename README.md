@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deep in Shielded.dev, adding bearer-token shield updates, token management, API migrations, and a Preact dashboard. I also tightened the surrounding tooling with better action outputs and compiled-output checks in [the PR that adds bearer API shield updates and the Preact dashboard](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
+I’ve been deepening my small developer tools, especially Boomerang, where I fixed multi-path test suites so every configured spec runs instead of only the last one. I’ve also been tightening validation, PHPUnit compatibility, and static-analysis coverage. [I fixed Boomerang so every specified test path runs](https://github.com/donatj/Boomerang/pull/49).
 
-On my own repos, I’ve been improving password-management hardware experiments in picopass, modernizing Boomerang’s PHP testing and analysis, and making small tools easier to publish and use. I’ve also been thinking about how to keep software simple: AI can speed up development, but I still want reviewable changes, sensible guardrails, and a clear understanding of the code I ship.
+Across ShieldedDotDev and GitHub’s Actions projects, I’ve been improving practical tooling: bearer-token support and a Preact dashboard for Shielded, more reliable action bundling, and support for reading Node versions from JavaScript action metadata. I’ve enjoyed the mix of backend design, release plumbing, and making developer workflows a little less surprising.
 
-### What I have been thinking about
+#### What I have been thinking about
 
-I’ve been reflecting on how easily technology can replace judgment with validation or complexity. I keep coming back to straightforward data flows, small focused tools, good QA, and preserving real human connection instead of optimizing everything for speed or disposability.
+I’m still aiming for software that stays understandable: small focused tools, explicit workflows, careful review, and enough human oversight that I know what I’m shipping—even when AI helps me move faster.
 
-Last update: 2026-08-06
+Last update: 2026-08-07
