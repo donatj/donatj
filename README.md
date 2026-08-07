@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening my small developer tools, especially Boomerang, where I fixed multi-path test suites so every configured spec runs instead of only the last one. I’ve also been tightening validation, PHPUnit compatibility, and static-analysis coverage. [I fixed Boomerang so every specified test path runs](https://github.com/donatj/Boomerang/pull/49).
+I’ve been deep in Shielded.dev, building bearer-token support for shield management and moving the authenticated dashboard to Preact. The work also includes API-token management, migrations, validation, documentation, and tooling improvements; [the merged change adds bearer-token shield updates and a Preact dashboard](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
 
-Across ShieldedDotDev and GitHub’s Actions projects, I’ve been improving practical tooling: bearer-token support and a Preact dashboard for Shielded, more reliable action bundling, and support for reading Node versions from JavaScript action metadata. I’ve enjoyed the mix of backend design, release plumbing, and making developer workflows a little less surprising.
+On my own projects, I’ve been experimenting with a Raspberry Pi Pico-based TOTP keyboard in `picopass` and tightening up Boomerang’s PHP testing and analysis tooling. I’ve also been thinking about keeping software straightforward: AI can accelerate coding, but I still want small, reviewable changes, sensible guardrails, and a clear understanding of what I ship.
 
-#### What I have been thinking about
+### What I have been thinking about
 
-I’m still aiming for software that stays understandable: small focused tools, explicit workflows, careful review, and enough human oversight that I know what I’m shipping—even when AI helps me move faster.
+I keep coming back to the value of simple data flows, good QA, and tools that preserve human judgment and connection instead of adding complexity or making everything disposable.
 
 Last update: 2026-08-07
