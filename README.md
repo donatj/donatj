@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deep in Shielded.dev, building bearer-token support for shield management and moving the authenticated dashboard to Preact. The work also includes API-token management, migrations, validation, documentation, and tooling improvements; [the merged change adds bearer-token shield updates and a Preact dashboard](https://github.com/ShieldedDotDev/shieldeddotdev/pull/356).
+I’ve been deep in ShieldedDotDev, improving Shielded.dev’s API-managed README badges. I tightened authentication cookies, added user-key badge URLs, and improved the GitHub Action with TypeScript checks, reusable shield URLs, and clearer CI output. The biggest piece was [adding stable badge URLs based on a user and shield key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360).
 
-On my own projects, I’ve been experimenting with a Raspberry Pi Pico-based TOTP keyboard in `picopass` and tightening up Boomerang’s PHP testing and analysis tooling. I’ve also been thinking about keeping software straightforward: AI can accelerate coding, but I still want small, reviewable changes, sensible guardrails, and a clear understanding of what I ship.
+On my personal account, I’ve also been sharpening a few practical tools, including a SQL dump parser and a PHP 9P2000 stream-wrapper experiment. I built [an automated weekly activity report for this README](https://github.com/donatj/donatj/pull/1), so keeping this section current is now part of the development workflow.
 
 ### What I have been thinking about
 
-I keep coming back to the value of simple data flows, good QA, and tools that preserve human judgment and connection instead of adding complexity or making everything disposable.
+I keep coming back to simple software, careful review, and good QA—especially as AI makes it easier to produce code quickly. I still want the systems I build to remain understandable, deliberate, and useful to the people relying on them.
 
-Last update: 2026-08-07
+Last update: 2026-08-08
