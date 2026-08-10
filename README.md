@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been busy building out Shielded.dev, including a new keyed image route for serving user-specific shields and improvements across its authentication, CLI, and GitHub Action tooling. The goal is to make badge updates easier to manage while keeping the hosted service and self-hosted pieces dependable. [Serve shields through stable user-and-key URLs](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360) ([github.com](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360))
+I’ve been busy with Shielded.dev, improving stable user-key badge URLs, tightening authentication cookies, and keeping the CLI and GitHub Action in step with the API. The work is focused on making API-managed README badges easier to create, update, and consume, including [serving shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360).
 
-On my own projects, I’ve been tightening Boomerang’s validation and testing tools. I fixed closure-based validations so thrown errors become useful failed expectations instead of stopping the whole run, while also raising static-analysis coverage and modernizing the test setup. [Turn validation-closure errors into readable test failures](https://github.com/donatj/Boomerang/pull/52) ([github.com](https://github.com/donatj/Boomerang/pull/52))
+On my personal repos, I’ve been polishing small, practical tools and experiments: PHP testing in Boomerang, a PHP 9P2000 stream wrapper, and a handful of Go and TypeScript utilities. I’m still enjoying projects where a narrow problem can be solved with a small, understandable piece of software.
 
 ### What I have been thinking about
 
-I keep coming back to simple software, strong QA, and keeping humans in control of AI-assisted development. AI can speed up implementation, but I still want small, reviewable changes, understandable code, and tools that preserve judgment rather than replacing it.
+I keep coming back to simple software, careful review, and good QA. AI can make code arrive faster, but I still want changes I can understand, test, and take responsibility for—and I don’t want useful human connection optimized away in the process.
 
-Last update: 2026-08-09
+Last update: 2026-08-10
