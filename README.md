@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I started **[csv-walker](https://github.com/donatj/csv-walker)**, a small dependency-free CSV/TSV parser for browsers and Node.js that streams rows and cells through lazy generators. I’ve been building out encoding support, fixtures, examples, linting, CI, and an `allValues` helper.
+I’ve started **[csv-walker](https://github.com/donatj/csv-walker)**, a small dependency-free CSV/TSV parser for browsers and Node.js. It uses lazy generators so rows, columns, files, and streams can be processed without loading everything into memory. ([github.com](https://github.com/donatj/csv-walker))
 
-I’ve also been tightening up Boomerang, my PHP API end-to-end testing tool. I fixed the runner so it executes every configured spec path and added regression coverage, while improving validation-error reporting. [The runner now handles every specified spec path](https://github.com/donatj/Boomerang/pull/49).
+I’ve also been improving Boomerang, my PHP API testing tool, so configured spec paths all run instead of only the last one, with coverage for multi-path execution. ([Run every specified spec path](https://github.com/donatj/Boomerang/pull/49)) ([github.com](https://github.com/donatj/Boomerang/commit/0c308dc02f1ca81ccafeafc3f1ab9f49905b45f5))
 
-The common thread has been keeping small tools practical: stream data instead of collecting it unnecessarily, make failures easier to understand, and add focused tests around the edge cases that matter.
+The common thread has been keeping useful tools small and predictable: streaming data instead of collecting it, and test runners that do exactly what their configuration says.
 
 #### What I have been thinking about
 
-I keep coming back to durable, simple software: stable RSS URLs, avoiding unnecessary frontend complexity, treating QA as essential, and reviewing AI-generated code carefully enough to understand and own it.
+I keep coming back to durable, understandable software: RSS URLs that survive platform changes, simple applications that don’t need layers of unnecessary frontend complexity, and AI-generated code that still needs careful review and real QA. I also miss the sense of community that older online tools and services made easier to build.
 
 Last update: 2026-08-12
