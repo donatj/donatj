@@ -24,6 +24,8 @@ const response = await new OpenAI().responses.create({
 	input: `First, identify every public GitHub organization associated with ${username}. Then research what ${username} has been up to in the past 14 days across the personal account and each of those organizations. Check every identified organization; do not limit research to personal repositories. Start with activity from the most recent 3 days and treat it as the primary source for the report. When relevant activity exists in that window, mention it before older work and use older activity only to explain or connect it; do not recap older work as a separate update. If there is no relevant activity in the most recent 3 days, choose the newest relevant activity from the rest of the 14-day window.
 
 Before drafting, explicitly check for public repositories created during the 14-day window across the personal account and every identified organization. A newly created repository is a new project and has the highest reporting priority. If any new projects exist, introduce the most meaningful one or two in the first paragraph, explaining their purpose from their repository descriptions, READMEs, or initial public work. Do not replace a new-project mention with older maintenance work simply because the older work has more commits or pull requests.
+
+Prioritize launches, new projects, features, additions, experiments, and other forward-looking work. Deprioritize bug fixes, maintenance, dependency updates, test changes, and tooling cleanup; mention them only when they are needed to explain a more interesting piece of work or when there is no more meaningful recent activity.
 	
 DO NOT read or use as reference the README section of the users profile or their README.md repository.
 
