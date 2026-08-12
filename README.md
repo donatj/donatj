@@ -14,6 +14,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 I’ve been tightening [Boomerang](https://github.com/donatj/Boomerang), my PHP API end-to-end testing tool. I improved multi-path spec execution, made closure-validation errors report as useful failures, and modernized the PHPUnit and static-analysis setup so the test suite is easier to maintain.
 
+#### What I have been thinking about
+
 I’ve also been thinking a lot about keeping software small, understandable, and properly tested. AI can help me move quickly, but I still want to review the changes, understand the code, and keep humans responsible for the result.
 
 Last update: 2026-08-12
