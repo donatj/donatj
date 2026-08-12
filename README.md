@@ -12,10 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tightening [Boomerang](https://github.com/donatj/Boomerang), my PHP API end-to-end testing tool. I improved multi-path spec execution, made closure-validation errors report as useful failures, and modernized the PHPUnit and static-analysis setup so the test suite is easier to maintain.
+I’ve been tightening up Boomerang, my PHP API end-to-end testing tool, with clearer validation flow and better visibility into PHPUnit deprecations. The work keeps the behavior intact while making the code easier to follow and maintain—especially in [flattening the StructureEx validation flow](https://github.com/donatj/Boomerang/pull/53). ([github.com](https://github.com/donatj/Boomerang/pull/53))
+
+I’ve also been spending time on small, focused data tools. My CSV projects cover everything from converting data into Markdown tables to lazily streaming rows and cells across browsers and Node.js, which has been a nice chance to keep the interfaces simple while handling larger inputs gracefully. ([github.com](https://github.com/donatj/CsvToMarkdownTable))
 
 #### What I have been thinking about
 
-I’ve also been thinking a lot about keeping software small, understandable, and properly tested. AI can help me move quickly, but I still want to review the changes, understand the code, and keep humans responsible for the result.
+I keep coming back to simple software, careful review, solid QA, and the importance of building tools that help people understand and take responsibility for the code they ship.
 
 Last update: 2026-08-12
