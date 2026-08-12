@@ -12,12 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tightening up Boomerang, my PHP API end-to-end testing tool, with clearer validation flow and better visibility into PHPUnit deprecations. The work keeps the behavior intact while making the code easier to follow and maintain—especially in [flattening the StructureEx validation flow](https://github.com/donatj/Boomerang/pull/53). ([github.com](https://github.com/donatj/Boomerang/pull/53))
+I started **[csv-walker](https://github.com/donatj/csv-walker)**, a small dependency-free CSV/TSV parser for browsers and Node.js that streams rows and cells through lazy generators. I’ve been building out encoding support, fixtures, examples, linting, CI, and an `allValues` helper.
 
-I’ve also been spending time on small, focused data tools. My CSV projects cover everything from converting data into Markdown tables to lazily streaming rows and cells across browsers and Node.js, which has been a nice chance to keep the interfaces simple while handling larger inputs gracefully. ([github.com](https://github.com/donatj/CsvToMarkdownTable))
+I’ve also been tightening up Boomerang, my PHP API end-to-end testing tool. I fixed the runner so it executes every configured spec path and added regression coverage, while improving validation-error reporting. [The runner now handles every specified spec path](https://github.com/donatj/Boomerang/pull/49).
+
+The common thread has been keeping small tools practical: stream data instead of collecting it unnecessarily, make failures easier to understand, and add focused tests around the edge cases that matter.
 
 #### What I have been thinking about
 
-I keep coming back to simple software, careful review, solid QA, and the importance of building tools that help people understand and take responsibility for the code they ship.
+I keep coming back to durable, simple software: stable RSS URLs, avoiding unnecessary frontend complexity, treating QA as essential, and reviewing AI-generated code carefully enough to understand and own it.
 
 Last update: 2026-08-12
