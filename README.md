@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tightening up Boomerang, my PHP API end-to-end testing tool. I fixed its runner so multiple configured spec paths all execute, and improved how validation-closure errors are reported. [Run every specified spec path](https://github.com/donatj/Boomerang/pull/49)
+I’ve been tightening up Boomerang, my PHP API end-to-end testing tool. I fixed the runner so it executes every configured spec path instead of silently using only the last one, with regression coverage for multi-file test runs: [run every specified spec path](https://github.com/donatj/Boomerang/pull/49).
 
-I’ve also been working on Shielded.dev, adding stable badge URLs that look up shields by username and user-defined key. That makes API-managed README badges easier to address and consume. [Serve shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360)
+I’ve also been working on Shielded.dev, adding stable badge URLs that find shields by username and user-defined key. That makes API-managed README badges easier to address and consume: [serve shields by user key](https://github.com/ShieldedDotDev/shieldeddotdev/pull/360).
 
 ### What I have been thinking about
 
-I keep coming back to simple software, careful review, and good QA. AI-assisted coding can make changes arrive quickly, but I still want code I understand, can test, and can take responsibility for.
+I keep coming back to simple software, careful review, and good QA. AI-assisted coding can make changes arrive quickly, but I still want code I understand, can test, and can take responsibility for—and I miss the sense of community that older online tools and services used to encourage.
 
-Last update: 2026-08-11
+Last update: 2026-08-12
