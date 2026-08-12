@@ -21,7 +21,11 @@ const response = await new OpenAI().responses.create({
 	model: process.env.OPENAI_MODEL ?? "gpt-5.6-luna",
 	tools: [{ type: "web_search" }],
 	tool_choice: "required",
-	input: `First, identify every public GitHub organization associated with ${username}. Then research what ${username} has been up to in the past 14 days across the personal account and each of those organizations. Check every identified organization; do not limit research to personal repositories. Prioritize public GitHub activity—especially pull requests, commits, issues, releases, and repositories—and use other public sources when useful.
+	input: `First, identify every public GitHub organization associated with ${username}. Then research what ${username} has been up to in the past 14 days across the personal account and each of those organizations. Check every identified organization; do not limit research to personal repositories. 
+	
+DO NOT read or use as reference the README section of the users profile or their README.md repository.
+
+Prioritize public GitHub activity—especially pull requests, commits, issues, releases, and repositories—and use other public sources when useful.
 
 Include only things that actually happened; do not mention missing, absent, unverified, or undiscovered activity. Ignore Dependabot-related work. Every pull request you mention must be an exact direct Markdown link to its public GitHub URL; never invent a link. Its link text must describe what the pull request achieves, not a repository name or pull-request number. Never use or mention non-programming-related Reddit activity or anything political. Do not include statements or opinions by ${username} that could be critical of any person, organization, project, or product.
 
