@@ -12,8 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been modernizing my TypeScript tooling around CSV parsing and Markdown conversion, with better streaming support, encoding handling, test coverage, CI, and a refreshed build setup. I also spent time making Boomerang’s test runner handle every configured spec path and report validation-closure errors as useful test failures: [modernize the CSV conversion tool](https://github.com/donatj/CsvToMarkdownTable/pull/198).
+I’ve been tightening up Boomerang, my PHP API testing tool, so it now runs every configured spec path instead of silently using only the last one. I also added regression coverage for multi-file test runs, making failures more dependable and easier to diagnose. ([Run every specified spec path](https://github.com/donatj/Boomerang/pull/49)) ([github.com](https://github.com/donatj/Boomerang/pull/49))
 
-I’ve also been building Counterpoint with Sophistry Engineering, an experimental browser-based MIDI sequencer, adding flexible step counts, pitch quantization, independent clock ratios, improved playback behavior, and GitHub Pages deployment. Outside the code, I keep coming back to small, understandable software, careful review of AI-generated code, durable web standards like RSS, and the value of technology that helps people build lasting communities.
+### What I have been thinking about
 
-Last update: 2026-08-14
+I keep coming back to simple software: most applications don’t need layers of frontend complexity, and AI-assisted coding still needs careful human review. I’m also thinking about how much better online tools feel when they stay lightweight, usable, and connected to real communities.
+
+Last update: 2026-08-15
