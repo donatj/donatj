@@ -12,10 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tightening up Boomerang, my PHP API testing tool, so it now runs every configured spec path instead of silently using only the last one. I also added regression coverage for multi-file test runs, making failures more dependable and easier to diagnose. ([Run every specified spec path](https://github.com/donatj/Boomerang/pull/49)) ([github.com](https://github.com/donatj/Boomerang/pull/49))
+I’ve been deepening my TypeScript tooling around CSV and Markdown conversion, improving streaming behavior, encoding coverage, CLI testing, and the build setup. I also modernized the compiler toolchain and made the tests safer and more portable with [direct stdin-based CLI testing](https://github.com/donatj/CsvToMarkdownTable/pull/201). ([github.com](https://github.com/donatj/CsvToMarkdownTable/pull/202))
 
-### What I have been thinking about
+On the PHP side, I’ve been tightening Boomerang’s validation and test infrastructure, including clearer failures from validation closures and better PHPUnit deprecation handling. The broader theme has been keeping small tools dependable, understandable, and easy to maintain. I’ve also been thinking about simple software, durable web standards like RSS, and technology that helps people build lasting communities. ([github.com](https://github.com/search?p=2&q=author%3Adonatj+created%3A2026-08-02..2026-08-16&type=pullrequests))
 
-I keep coming back to simple software: most applications don’t need layers of frontend complexity, and AI-assisted coding still needs careful human review. I’m also thinking about how much better online tools feel when they stay lightweight, usable, and connected to real communities.
-
-Last update: 2026-08-15
+Last update: 2026-08-16
