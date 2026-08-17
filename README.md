@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening my TypeScript tooling around CSV and Markdown conversion, improving streaming behavior, encoding coverage, CLI testing, and the build setup. I also modernized the compiler toolchain and made the tests safer and more portable with [direct stdin-based CLI testing](https://github.com/donatj/CsvToMarkdownTable/pull/201). ([github.com](https://github.com/donatj/CsvToMarkdownTable/pull/202))
+I’ve been tightening up Boomerang, my PHP API testing tool: making multi-path specs run reliably, improving closure-validation failures, and modernizing the PHPUnit and static-analysis setup. The goal is straightforward, dependable test feedback—[running every configured spec path](https://github.com/donatj/Boomerang/pull/49) and [updating the test tooling](https://github.com/donatj/Boomerang/pull/51).
 
-On the PHP side, I’ve been tightening Boomerang’s validation and test infrastructure, including clearer failures from validation closures and better PHPUnit deprecation handling. The broader theme has been keeping small tools dependable, understandable, and easy to maintain. I’ve also been thinking about simple software, durable web standards like RSS, and technology that helps people build lasting communities. ([github.com](https://github.com/search?p=2&q=author%3Adonatj+created%3A2026-08-02..2026-08-16&type=pullrequests))
+I’ve also been thinking about keeping software small and understandable. AI can help me move quickly, but I still want to review the changes, understand the code, and keep humans responsible for what ships.
 
-Last update: 2026-08-16
+Last update: 2026-08-17
