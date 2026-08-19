@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been modernizing my CSV-to-Markdown tooling: moving parsing into `csv-walker`, improving streaming and encoding coverage, tightening CLI tests, and updating the TypeScript build. The goal is a more dependable converter for real-world CSV files, including quoted fields and non-UTF-8 data. [Modernize CSV parsing and build support](https://github.com/donatj/CsvToMarkdownTable/pull/198)
+I’ve been tightening up Boomerang, my PHP API testing tool: making multi-path runs reliable, improving validation failures, and modernizing PHPUnit and static-analysis support. In particular, I fixed it so every configured spec path runs instead of only the last one: [run every specified spec path](https://github.com/donatj/Boomerang/pull/49). ([github.com](https://github.com/donatj/Boomerang/pull/49))
 
-I’ve also been giving my PHP tools some maintenance attention, especially Boomerang. I fixed validation closures so thrown errors become useful test failures instead of aborting the run, while also improving PHPUnit and static-analysis coverage. [Report errors from validation closures](https://github.com/donatj/Boomerang/pull/52)
+I’ve also been reworking my CSV tools around more robust parsing. CsvToMarkdownTable now uses `csv-walker` for quoted fields and multiline values while moving toward modern ESM and Node tooling, and I’ve been expanding `csv-walker`’s typed helpers and compatibility. [Modernize CSV parsing and packaging](https://github.com/donatj/CsvToMarkdownTable/pull/198). ([github.com](https://github.com/donatj/CsvToMarkdownTable/pull/198))
 
 ### What I have been thinking about
 
-I keep coming back to the value of simple software and durable web standards: small tools that are easy to understand, interfaces that do less, and technologies like RSS that help people keep control of how they follow the web.
+I keep coming back to simple, lightweight software: tools should stay understandable, usable, and connected to real communities. AI can help me move quickly, but I still want to review the changes, understand the code, and remain responsible for what ships.
 
-Last update: 2026-08-18
+Last update: 2026-08-19
