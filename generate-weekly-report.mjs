@@ -25,7 +25,7 @@ const response = await new OpenAI().responses.create({
 	
 DO NOT read or use as reference the README section of the users profile or their README.md repository.
 
-Prioritize public GitHub activity—especially pull requests, commits, issues, releases, and repositories—and use other public sources when useful.
+Prioritize public GitHub activity—especially pull requests, commits, issues, releases, and repositories—and use other public sources when useful. When choosing what to cover, place anything that might reasonably be categorized as a bug fix at the lowest priority. Do not use bug fixes to fill space; include one only when it is essential context for a more meaningful new project, launch, feature, addition, or experiment.
 
 Include only things that actually happened; do not mention missing, absent, unverified, or undiscovered activity. Ignore Dependabot-related work. Every pull request you mention must be an exact direct Markdown link to its public GitHub URL; never invent a link. Its link text must describe what the pull request achieves, not a repository name or pull-request number. Never use or mention non-programming-related Reddit activity or anything political. Do not include statements or opinions by ${username} that could be critical of any person, organization, project, or product.
 
