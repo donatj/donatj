@@ -12,10 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been reworking my CSV-to-Markdown tooling, moving parsing into a small streaming parser so quoted fields, embedded newlines, and other real-world CSV details behave more reliably. I’m also modernizing the TypeScript build and CLI tests along the way. [Modernize CSV parsing and build support](https://github.com/donatj/CsvToMarkdownTable/pull/198)
+I’ve been building out my CSV tooling, including `csv-walker`, a small streaming CSV/TSV parser with lazy generators. I also opened a [modernize CSV parsing and build the toolchain around `csv-walker`](https://github.com/donatj/CsvToMarkdownTable/pull/198) to improve quoted-field handling, newline support, ESM/Node compatibility, packaging, and CLI tests. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
+
+I’ve also been giving my PHP tools some maintenance attention, expanding Boomerang’s formatter rules and updating its PHPUnit migration and test infrastructure. ([github.com](https://github.com/donatj/Boomerang/commit/4da87e3c738846a6c8002afa9d5bbc339e8a5994))
 
 ### What I have been thinking about
 
-I keep coming back to simple software, durable web standards like RSS, and tools that help people stay connected to real communities instead of passing through disposable interfaces.
+I’ve been thinking about durable web standards like RSS, and about how software can preserve continuity and community instead of making every interaction feel disposable.
 
 Last update: 2026-08-20
