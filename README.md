@@ -12,8 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building out `csv-walker`, a small streaming CSV/TSV parser with lazy generators, support for files and streams, configurable encodings, and stronger coverage around real-world CSV edge cases. I also started folding it into CsvToMarkdownTable while modernizing the ESM/Node build and CLI test setup in [the CSV parsing and toolchain modernization work](https://github.com/donatj/CsvToMarkdownTable/pull/198). ([github.com](https://github.com/donatj/csv-walker))
+I’ve been deepening my CSV tooling with [`csv-walker`](https://github.com/donatj/csv-walker), a small streaming parser built around lazy generators for browser and Node.js use. I’m also folding it into CsvToMarkdownTable to handle quoted and multiline fields more reliably while modernizing the ESM, TypeScript, CLI, and CI setup in [the CSV parsing and toolchain modernization work](https://github.com/donatj/CsvToMarkdownTable/pull/198).
 
-I keep coming back to lightweight tools that solve a practical problem without adding another unnecessary layer. I’m especially interested in software that stays understandable and useful—even when the input is messy and the surrounding tooling keeps changing.
+### What I have been thinking about
 
-Last update: 2026-08-21
+I keep coming back to lightweight, understandable software—and to durable web standards like RSS that help preserve continuity instead of making every interaction disposable.
+
+Last update: 2026-08-22
