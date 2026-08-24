@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been turning `csv-walker` into the foundation for a substantial CsvToMarkdownTable refresh: streaming CSV/TSV parsing, async collection helpers, real encoding fixtures, and a modern ESM/Node toolchain. The bigger goal is more reliable handling of quoted fields and embedded newlines without keeping a custom parser in the middle. [Replace custom parsing with a streaming CSV parser](https://github.com/donatj/CsvToMarkdownTable/pull/198)
+I’ve been giving my CSV tools a serious refresh, replacing custom parsing in CsvToMarkdownTable with a small streaming parser that handles quoted fields, embedded newlines, multiple encodings, and modern Node/ESM builds more cleanly. I’ve also been tightening the CLI and test coverage along the way. [Modernize CSV parsing and packaging](https://github.com/donatj/CsvToMarkdownTable/pull/198)
 
-I’ve also been giving Circle-Generator a broader usability and packaging pass, including touch pinch-to-zoom, saved-state handling, cleaner downloads, TypeScript 7 support, and a standalone single-file build. [Add touch pinch-to-zoom](https://github.com/donatj/Circle-Generator/pull/121)
+I’ve also been making Circle-Generator nicer to use on touch devices, adding two-finger pinch-to-zoom while keeping one-finger panning and saved render settings working smoothly. [Add touch pinch-to-zoom](https://github.com/donatj/Circle-Generator/pull/121)
 
-Last update: 2026-08-23
+### What I have been thinking about
+
+I keep coming back to lightweight tools that solve a real problem without adding another layer of complexity. I’m especially interested in software that stays understandable, preserves human judgment, and makes everyday work a little less frustrating.
+
+Last update: 2026-08-24
