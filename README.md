@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been giving Circle-Generator a pretty thorough usability pass, including a standalone single-file build and touch-friendly pinch-to-zoom alongside the existing panning controls. I’ve also been modernizing CsvToMarkdownTable with newer TypeScript tooling, while continuing to build out small focused utilities like TickerGraph, Hookah, imgdedup, and misstep for graphs, webhooks, image deduplication, and plain-text database modeling. [I added touch pinch-to-zoom to Circle-Generator](https://github.com/donatj/Circle-Generator/pull/121).
+I’ve been deep in CSV tooling: I built out [`csv-walker`](https://github.com/donatj/csv-walker), a streaming CSV/TSV parser with lazy generators, encoding support, and coverage for messy real-world input, then started integrating it into [`CsvToMarkdownTable`](https://github.com/donatj/CsvToMarkdownTable/pull/198) while modernizing its ESM, Node, CLI, and test setup.
 
-I’ve also been contributing outside my own repositories: I added PHPStan-based static analysis and CI coverage to henderjon’s PHP OIDC library, and opened a change to make Secure-Pipes build natively on Apple Silicon. A lot of my recent tinkering has circled around making small tools easier to build, run, and trust—without piling on unnecessary complexity.
+I’ve also been experimenting with making Circle-Generator friendlier on touch devices and cleaning up its TypeScript tooling, while giving my small PHP projects some attention—including better parser exception coverage in misstep. I keep coming back to lightweight tools that handle practical problems cleanly without adding unnecessary complexity.
 
 Last update: 2026-08-26
