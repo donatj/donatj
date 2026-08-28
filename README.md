@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been making [Circle-Generator](https://github.com/donatj/Circle-Generator) much nicer to use on touch devices, adding pinch-to-zoom and packaging the distribution as a single HTML file. I’ve also been extending [mpo](https://github.com/donatj/mpo), my Go toolkit for decoding, encoding, and converting stereoscopic MPO photos, while continuing work on [imgdedup](https://github.com/donatj/imgdedup) for practical image-duplicate detection.
+I’ve been building and polishing small tools that make everyday workflows faster and more portable. I’ve been extending [imgdedup](https://github.com/donatj/imgdedup) with a newer persistent cache backend, while [Circle-Generator](https://github.com/donatj/Circle-Generator) has been getting a more self-contained build, modern TypeScript tooling, touch-friendly controls, and a cleaner interface. ([github.com](https://github.com/donatj/imgdedup/pull/90))
 
-I also helped bring native Apple Silicon builds to [Secure-Pipes](https://github.com/tstonis/Secure-Pipes), including modernizing its older macOS dependencies; the change was accepted upstream in [Build natively on Apple Silicon](https://github.com/tstonis/Secure-Pipes/pull/1). I keep gravitating toward small, useful tools—and lately I’ve been thinking that when I find a problem in software, the best response is usually to open a pull request and try to fix it.
+I’ve also been spreading that same portability mindset across a few projects I contribute to: [php-jwk](https://github.com/Strobotti/php-jwk) now has broader PHP-version CI coverage proposed, [php-oidc](https://github.com/henderjon/php-oidc) has new CI work, and [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) has an Apple Silicon build proposal. I keep coming back to the idea that when something is useful but awkward, the best answer is usually to make a concrete improvement and open it up for review. ([github.com](https://github.com/Strobotti/php-jwk/pull/17))
 
-Last update: 2026-08-27
+### What I have been thinking about
+
+I’ve been thinking a lot about fixing problems directly instead of merely cataloging them: keep tools lightweight, make improvements reviewable, and preserve the human judgment that software is supposed to support.
+
+Last update: 2026-08-28
