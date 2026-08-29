@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building and polishing small tools that make everyday workflows faster and more portable. I’ve been extending [imgdedup](https://github.com/donatj/imgdedup) with a newer persistent cache backend, while [Circle-Generator](https://github.com/donatj/Circle-Generator) has been getting a more self-contained build, modern TypeScript tooling, touch-friendly controls, and a cleaner interface. ([github.com](https://github.com/donatj/imgdedup/pull/90))
+I’ve been exploring a run of small, practical tools: [imgdedup](https://github.com/donatj/imgdedup) for finding duplicate images, [pngpal](https://github.com/donatj/pngpal) for shrinking PNGs through palette conversion, and [unic](https://github.com/donatj/unic) for a faster, order-preserving `sort | uniq` workflow. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
 
-I’ve also been spreading that same portability mindset across a few projects I contribute to: [php-jwk](https://github.com/Strobotti/php-jwk) now has broader PHP-version CI coverage proposed, [php-oidc](https://github.com/henderjon/php-oidc) has new CI work, and [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) has an Apple Silicon build proposal. I keep coming back to the idea that when something is useful but awkward, the best answer is usually to make a concrete improvement and open it up for review. ([github.com](https://github.com/Strobotti/php-jwk/pull/17))
+I’ve also been experimenting with programmable file creation in [ttouch](https://github.com/donatj/ttouch) and making [Circle-Generator](https://github.com/donatj/Circle-Generator) more useful for generating building-game geometry. I keep enjoying these compact projects where a focused tool can make an everyday task a little easier. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
 
 ### What I have been thinking about
 
-I’ve been thinking a lot about fixing problems directly instead of merely cataloging them: keep tools lightweight, make improvements reviewable, and preserve the human judgment that software is supposed to support.
+I keep coming back to the idea that when I run into a technical problem, the most useful response is usually to build a fix—or open a pull request—rather than just complain about it.
 
-Last update: 2026-08-28
+Last update: 2026-08-29
