@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been exploring a run of small, practical tools: [imgdedup](https://github.com/donatj/imgdedup) for finding duplicate images, [pngpal](https://github.com/donatj/pngpal) for shrinking PNGs through palette conversion, and [unic](https://github.com/donatj/unic) for a faster, order-preserving `sort | uniq` workflow. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
+I’ve been making [Circle-Generator](https://github.com/donatj/Circle-Generator) more portable and pleasant to use: I shipped a self-contained HTML distribution and added touch pinch-to-zoom. I’ve also been moving [imgdedup](https://github.com/donatj/imgdedup) toward Bitcask v2, keeping its image-duplicate detection cache current. [The standalone build](https://github.com/donatj/Circle-Generator/pull/119) and [touch controls](https://github.com/donatj/Circle-Generator/pull/121) are the highlights. ([github.com](https://github.com/donatj/Circle-Generator/pull/121))
 
-I’ve also been experimenting with programmable file creation in [ttouch](https://github.com/donatj/ttouch) and making [Circle-Generator](https://github.com/donatj/Circle-Generator) more useful for generating building-game geometry. I keep enjoying these compact projects where a focused tool can make an everyday task a little easier. ([github.com](https://github.com/donatj?sort=updated&tab=repositories))
+I’ve been contributing that same portability-and-maintainability energy elsewhere: [php-jwk](https://github.com/donatj/php-jwk) now has broader PHP-version CI coverage, [php-oidc](https://github.com/henderjon/php-oidc) gained PHPStan-backed static analysis in CI, and [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) now builds natively for Apple Silicon. ([github.com](https://github.com/search?q=author%3Adonatj+created%3A%3E%3D2026-08-16&type=pullrequests))
 
 ### What I have been thinking about
 
-I keep coming back to the idea that when I run into a technical problem, the most useful response is usually to build a fix—or open a pull request—rather than just complain about it.
+I keep coming back to the idea that when I find a software problem, the useful response is to make a concrete fix and open a pull request—not just complain about it.
 
-Last update: 2026-08-29
+Last update: 2026-08-30
