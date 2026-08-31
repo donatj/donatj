@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been making [Circle-Generator](https://github.com/donatj/Circle-Generator) more portable and pleasant to use: I shipped a self-contained HTML distribution and added touch pinch-to-zoom. I’ve also been moving [imgdedup](https://github.com/donatj/imgdedup) toward Bitcask v2, keeping its image-duplicate detection cache current. [The standalone build](https://github.com/donatj/Circle-Generator/pull/119) and [touch controls](https://github.com/donatj/Circle-Generator/pull/121) are the highlights. ([github.com](https://github.com/donatj/Circle-Generator/pull/121))
+I’ve been polishing [Circle-Generator](https://github.com/donatj/Circle-Generator) into a more self-contained tool, including touch pinch-to-zoom, cleaner downloads, stronger saved-state handling, and a single-file distribution. I also helped bring [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) back to life on Apple Silicon by updating its Xcode and legacy Corkscrew build path. ([Build distribution as a single HTML file](https://github.com/donatj/Circle-Generator/pull/119), [Build natively on Apple Silicon](https://github.com/tstonis/Secure-Pipes/pull/1)) ([github.com](https://github.com/donatj/Circle-Generator/pull/119))
 
-I’ve been contributing that same portability-and-maintainability energy elsewhere: [php-jwk](https://github.com/donatj/php-jwk) now has broader PHP-version CI coverage, [php-oidc](https://github.com/henderjon/php-oidc) gained PHPStan-backed static analysis in CI, and [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) now builds natively for Apple Silicon. ([github.com](https://github.com/search?q=author%3Adonatj+created%3A%3E%3D2026-08-16&type=pullrequests))
+I’ve also been contributing some practical maintenance upstream: improving CI and static-analysis coverage in [php-oidc](https://github.com/henderjon/php-oidc) and expanding the supported PHP test matrix in [php-jwk](https://github.com/Strobotti/php-jwk). Alongside that, I’ve kept iterating on small Go tools like [sqlread](https://github.com/donatj/sqlread), [unic](https://github.com/donatj/unic), and [imgdedup](https://github.com/donatj/imgdedup)—focused utilities for working with SQL dumps, streams of unique values, and duplicate images. ([github.com](https://github.com/henderjon/php-oidc/pull/46))
 
 ### What I have been thinking about
 
-I keep coming back to the idea that when I find a software problem, the useful response is to make a concrete fix and open a pull request—not just complain about it.
+I keep coming back to the same rule of thumb: when I find a technical problem, I’d rather build a fix or open a pull request than just complain about it.
 
-Last update: 2026-08-30
+Last update: 2026-08-31
