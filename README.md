@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been polishing [Circle-Generator](https://github.com/donatj/Circle-Generator) into a more self-contained tool, including touch pinch-to-zoom, cleaner downloads, stronger saved-state handling, and a single-file distribution. I also helped bring [Secure-Pipes](https://github.com/tstonis/Secure-Pipes) back to life on Apple Silicon by updating its Xcode and legacy Corkscrew build path. ([Build distribution as a single HTML file](https://github.com/donatj/Circle-Generator/pull/119), [Build natively on Apple Silicon](https://github.com/tstonis/Secure-Pipes/pull/1)) ([github.com](https://github.com/donatj/Circle-Generator/pull/119))
+I’ve been making small tools more capable and easier to ship. In [Circle-Generator](https://github.com/donatj/Circle-Generator), I added pinch-to-zoom, polished the controls, moved to a self-contained Vite build, replaced TSLint with Oxlint/Oxfmt, and upgraded TypeScript. I also upgraded the persistent Bitcask cache in [imgdedup](https://github.com/donatj/imgdedup) while keeping its duplicate-image workflow lightweight. ([github.com](https://github.com/donatj/Circle-Generator/commits/master))
 
-I’ve also been contributing some practical maintenance upstream: improving CI and static-analysis coverage in [php-oidc](https://github.com/henderjon/php-oidc) and expanding the supported PHP test matrix in [php-jwk](https://github.com/Strobotti/php-jwk). Alongside that, I’ve kept iterating on small Go tools like [sqlread](https://github.com/donatj/sqlread), [unic](https://github.com/donatj/unic), and [imgdedup](https://github.com/donatj/imgdedup)—focused utilities for working with SQL dumps, streams of unique values, and duplicate images. ([github.com](https://github.com/henderjon/php-oidc/pull/46))
+I released [hookah](https://github.com/donatj/hookah) v3.0.0 and v3.1.0, including symlink-following for its GitHub webhook scripts, and I’ve been exploring portability elsewhere with [Secure-Pipes](https://github.com/donatj/Secure-Pipes) through [a proposal to build natively on Apple Silicon](https://github.com/donatj/Secure-Pipes/pull/1). I keep coming back to the idea that the best way to improve software is to make concrete, reviewable changes. ([github.com](https://github.com/donatj/hookah/releases))
 
 ### What I have been thinking about
 
-I keep coming back to the same rule of thumb: when I find a technical problem, I’d rather build a fix or open a pull request than just complain about it.
+I’ve been thinking about fixing problems directly instead of merely cataloging them: keep tools lightweight, make improvements reviewable, and turn useful ideas into working code.
 
-Last update: 2026-08-31
+Last update: 2026-09-01
