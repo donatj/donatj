@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been making small tools more capable and easier to ship. In [Circle-Generator](https://github.com/donatj/Circle-Generator), I added pinch-to-zoom, polished the controls, moved to a self-contained Vite build, replaced TSLint with Oxlint/Oxfmt, and upgraded TypeScript. I also upgraded the persistent Bitcask cache in [imgdedup](https://github.com/donatj/imgdedup) while keeping its duplicate-image workflow lightweight. ([github.com](https://github.com/donatj/Circle-Generator/commits/master))
+I’ve been giving my small Go and PHP projects a compatibility pass, adding Go 1.27 coverage to [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [wordwrap](https://github.com/donatj/wordwrap), while extending CI through PHP 8.5 in [ComposerAutoloadSpeedBenchmark](https://github.com/donatj/ComposerAutoloadSpeedBenchmark). I’ve also been building a more substantial addition to [Exporter](https://github.com/QuorumCollection/Exporter): [streamed XLSX export with integration coverage](https://github.com/QuorumCollection/Exporter/pull/22).
 
-I released [hookah](https://github.com/donatj/hookah) v3.0.0 and v3.1.0, including symlink-following for its GitHub webhook scripts, and I’ve been exploring portability elsewhere with [Secure-Pipes](https://github.com/donatj/Secure-Pipes) through [a proposal to build natively on Apple Silicon](https://github.com/donatj/Secure-Pipes/pull/1). I keep coming back to the idea that the best way to improve software is to make concrete, reviewable changes. ([github.com](https://github.com/donatj/hookah/releases))
+I keep coming back to the same approach: make practical improvements directly, keep the tools lightweight, and turn ideas into changes that are easy to review. That’s also been shaping how I experiment with automation—useful when it helps produce concrete, working software rather than just more commentary.
 
-### What I have been thinking about
-
-I’ve been thinking about fixing problems directly instead of merely cataloging them: keep tools lightweight, make improvements reviewable, and turn useful ideas into working code.
-
-Last update: 2026-09-01
+Last update: 2026-09-02
