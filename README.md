@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been giving my small Go and PHP projects a compatibility pass, adding Go 1.27 coverage to [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [wordwrap](https://github.com/donatj/wordwrap), while extending CI through PHP 8.5 in [ComposerAutoloadSpeedBenchmark](https://github.com/donatj/ComposerAutoloadSpeedBenchmark). I’ve also been building a more substantial addition to [Exporter](https://github.com/QuorumCollection/Exporter): [streamed XLSX export with integration coverage](https://github.com/QuorumCollection/Exporter/pull/22).
+I’ve been making my small tools more portable and pleasant to use. In [Circle-Generator](https://github.com/donatj/Circle-Generator), I added touch pinch-to-zoom, modernized the TypeScript tooling, and moved toward a self-contained build. I also opened the [Bitcask v2 migration](https://github.com/donatj/imgdedup/pull/90) for [imgdedup](https://github.com/donatj/imgdedup), keeping its persistent image-deduplication cache current.
 
-I keep coming back to the same approach: make practical improvements directly, keep the tools lightweight, and turn ideas into changes that are easy to review. That’s also been shaping how I experiment with automation—useful when it helps produce concrete, working software rather than just more commentary.
+I’ve been applying the same compatibility-focused approach across shared projects: [Exporter](https://github.com/QuorumCollection/Exporter) now has a proposed minimal streamed XLSX exporter, while [php-jwk](https://github.com/Strobotti/php-jwk) is expanding its PHP-version test coverage. I keep coming back to lightweight improvements that solve a real problem—and to turning software complaints into concrete, reviewable changes.
 
-Last update: 2026-09-02
+Last update: 2026-09-03
