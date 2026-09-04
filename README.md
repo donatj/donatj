@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been making my small tools more portable and pleasant to use. In [Circle-Generator](https://github.com/donatj/Circle-Generator), I added touch pinch-to-zoom, modernized the TypeScript tooling, and moved toward a self-contained build. I also opened the [Bitcask v2 migration](https://github.com/donatj/imgdedup/pull/90) for [imgdedup](https://github.com/donatj/imgdedup), keeping its persistent image-deduplication cache current.
+I’ve been giving a handful of my small Go tools a Go 1.27 compatibility pass. That includes [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), [wordwrap](https://github.com/donatj/wordwrap), [headers](https://github.com/donatj/headers), and [parsestr](https://github.com/donatj/parsestr), with CI updated to exercise the newer toolchain. I also merged the [Go 1.27 upgrade for gifopt](https://github.com/donatj/gifopt/pull/14) and [expanded Go 1.27 CI coverage for wordwrap](https://github.com/donatj/wordwrap/pull/22). ([github.com](https://github.com/donatj/gifopt/commits/master/))
 
-I’ve been applying the same compatibility-focused approach across shared projects: [Exporter](https://github.com/QuorumCollection/Exporter) now has a proposed minimal streamed XLSX exporter, while [php-jwk](https://github.com/Strobotti/php-jwk) is expanding its PHP-version test coverage. I keep coming back to lightweight improvements that solve a real problem—and to turning software complaints into concrete, reviewable changes.
+I’ve been thinking about how easy it is for automation to produce something that looks like learning without building much understanding underneath. That’s made me appreciate the other side of the same coin too: when I see a technical problem, I’d rather turn it into a concrete change and a pull request than leave it as commentary.
 
-Last update: 2026-09-03
+Last update: 2026-09-04
