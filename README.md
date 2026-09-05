@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been giving a handful of my small Go tools a Go 1.27 compatibility pass. That includes [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), [wordwrap](https://github.com/donatj/wordwrap), [headers](https://github.com/donatj/headers), and [parsestr](https://github.com/donatj/parsestr), with CI updated to exercise the newer toolchain. I also merged the [Go 1.27 upgrade for gifopt](https://github.com/donatj/gifopt/pull/14) and [expanded Go 1.27 CI coverage for wordwrap](https://github.com/donatj/wordwrap/pull/22). ([github.com](https://github.com/donatj/gifopt/commits/master/))
+I’ve been polishing small tools into more capable, portable projects. [Circle-Generator](https://github.com/donatj/Circle-Generator) gained a standalone HTML build, touch pinch-to-zoom, and a more polished controls panel—especially in the [fieldset layout improvements](https://github.com/donatj/Circle-Generator/pull/127). I’ve also been modernizing [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable), including safer CLI testing and a refreshed linting/formatting toolchain through [direct stdin-based CLI tests](https://github.com/donatj/CsvToMarkdownTable/pull/210).
 
-I’ve been thinking about how easy it is for automation to produce something that looks like learning without building much understanding underneath. That’s made me appreciate the other side of the same coin too: when I see a technical problem, I’d rather turn it into a concrete change and a pull request than leave it as commentary.
+I’ve kept that same practical focus across [ttouch](https://github.com/donatj/ttouch), my Go-based `touch` alternative that generates context-aware boilerplate, and [Pushover-PHP](https://github.com/donatj/Pushover-PHP), where I added PHP 8.5 CI coverage. I’ve also continued maintaining [imgdedup](https://github.com/donatj/imgdedup), including its move toward the Bitcask v2 cache backend.
 
-Last update: 2026-09-04
+#### What I have been thinking about
+
+I still think the best response to a software problem is usually to build a concrete fix and open a pull request. That feels especially important as tools get more automated: the useful part is not merely producing an answer, but understanding the problem well enough to make the result dependable.
+
+Last update: 2026-09-05
