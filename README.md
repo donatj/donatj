@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tightening up my small tools and their development workflows. In [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable), I’ve been improving CLI testing and moving the project toward Oxlint and Oxfmt; I also added Go 1.27 coverage across [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [wordwrap](https://github.com/donatj/wordwrap). ([Test CLI input safely](https://github.com/donatj/CsvToMarkdownTable/pull/210)) ([github.com](https://github.com/search?q=author%3Adonatj+created%3A%3E%3D2026-08-24&type=pullrequests))
+I’ve been making small tools more portable and dependable. [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) got safer CLI testing and a refreshed linting/formatting setup, while [ttouch](https://github.com/donatj/ttouch) received Go 1.27 compatibility work. I’ve also been expanding CI coverage for [Pushover-PHP](https://github.com/donatj/Pushover-PHP), including PHP 8.5. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
 
-I’ve also been extending [Exporter](https://github.com/QuorumCollection/Exporter) with streamed XLSX output and integration coverage, while keeping the PHP projects current through [ComposerAutoloadSpeedBenchmark](https://github.com/donatj/ComposerAutoloadSpeedBenchmark) and [Pushover-PHP](https://github.com/donatj/Pushover-PHP). ([Add minimal XLSX export support](https://github.com/QuorumCollection/Exporter/pull/22)) ([github.com](https://github.com/search?q=author%3Adonatj+created%3A%3E%3D2026-08-24&type=pullrequests))
+I’ve carried that compatibility pass across a handful of smaller Go projects, including [gifopt](https://github.com/donatj/gifopt), [wordwrap](https://github.com/donatj/wordwrap), and [appsettings](https://github.com/donatj/appsettings). I’ve been thinking about how easy it is for automation to produce answers without building much understanding—and that makes me appreciate concrete, reviewable changes even more.
 
-### What I have been thinking about
+#### What I have been thinking about
 
-I keep coming back to the value of turning technical problems into concrete, reviewable changes. I’m also cautious about automation that can imitate learning without building much understanding underneath.
+I still prefer turning a technical problem into a working fix and opening a pull request. Tools are most useful when they help us understand what we’re doing, not merely make the answer appear.
 
-Last update: 2026-09-06
+Last update: 2026-09-07
