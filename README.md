@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been making small tools more portable and dependable. [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) got safer CLI testing and a refreshed linting/formatting setup, while [ttouch](https://github.com/donatj/ttouch) received Go 1.27 compatibility work. I’ve also been expanding CI coverage for [Pushover-PHP](https://github.com/donatj/Pushover-PHP), including PHP 8.5. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
+I’ve been modernizing my small Go and TypeScript tools: [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [wordwrap](https://github.com/donatj/wordwrap) now have Go 1.27 coverage, while [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) moved from ESLint to Oxlint and Oxfmt with a dedicated quality check. I also tightened its CLI testing so inputs are exercised without shell-built commands in [the formatting and linting change](https://github.com/donatj/CsvToMarkdownTable/pull/209). ([github.com](https://github.com/search?p=2&q=author%3Adonatj+created%3A2026-08-25..2026-09-08&type=pullrequests))
 
-I’ve carried that compatibility pass across a handful of smaller Go projects, including [gifopt](https://github.com/donatj/gifopt), [wordwrap](https://github.com/donatj/wordwrap), and [appsettings](https://github.com/donatj/appsettings). I’ve been thinking about how easy it is for automation to produce answers without building much understanding—and that makes me appreciate concrete, reviewable changes even more.
+I’ve also been spending time outside my personal repositories. In [Exporter](https://github.com/QuorumCollection/Exporter), I’m adding streamed XLSX output with integration coverage, using the project’s existing ZipStream foundation; [the XLSX work](https://github.com/QuorumCollection/Exporter/pull/22) is now under review. Over in [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), I’ve been helping standardize frontend formatting with Oxfmt alongside Oxlint. ([github.com](https://github.com/QuorumCollection))
 
-#### What I have been thinking about
+### What I have been thinking about
 
-I still prefer turning a technical problem into a working fix and opening a pull request. Tools are most useful when they help us understand what we’re doing, not merely make the answer appear.
+I keep coming back to the value of turning technical problems into concrete, reviewable changes—and to being careful with automation that can imitate progress without necessarily building understanding.
 
-Last update: 2026-09-07
+Last update: 2026-09-08
