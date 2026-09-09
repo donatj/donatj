@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been modernizing my small Go and TypeScript tools: [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [wordwrap](https://github.com/donatj/wordwrap) now have Go 1.27 coverage, while [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) moved from ESLint to Oxlint and Oxfmt with a dedicated quality check. I also tightened its CLI testing so inputs are exercised without shell-built commands in [the formatting and linting change](https://github.com/donatj/CsvToMarkdownTable/pull/209). ([github.com](https://github.com/search?p=2&q=author%3Adonatj+created%3A2026-08-25..2026-09-08&type=pullrequests))
+I’ve been sharpening a few practical tools: [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) is getting better CLI and formatting workflows, while [loggre](https://github.com/donatj/loggre) gives me a small playground for parsing logs. I’ve also continued polishing [hookah](https://github.com/donatj/hookah), my Go-based GitHub webhook server that hands event payloads off to scripts in whatever language fits the job. ([github.com](https://github.com/donatj/loggre))
 
-I’ve also been spending time outside my personal repositories. In [Exporter](https://github.com/QuorumCollection/Exporter), I’m adding streamed XLSX output with integration coverage, using the project’s existing ZipStream foundation; [the XLSX work](https://github.com/QuorumCollection/Exporter/pull/22) is now under review. Over in [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), I’ve been helping standardize frontend formatting with Oxfmt alongside Oxlint. ([github.com](https://github.com/QuorumCollection))
+On the smaller-tool side, I’ve been revisiting [SimpleCalendar](https://github.com/donatj/SimpleCalendar), [tabasco](https://github.com/donatj/tabasco), and [force-color.org](https://github.com/donatj/force-color.org)—a mix of reusable PHP, browser, and web tooling. I keep enjoying projects where a narrow problem can be turned into something compact and useful.
 
 ### What I have been thinking about
 
-I keep coming back to the value of turning technical problems into concrete, reviewable changes—and to being careful with automation that can imitate progress without necessarily building understanding.
+I keep coming back to the value of turning technical problems into concrete, reviewable changes. I’m also cautious about automation that can imitate learning without necessarily building much understanding underneath.
 
-Last update: 2026-09-08
+Last update: 2026-09-09
