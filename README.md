@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been sharpening a few practical tools: [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) is getting better CLI and formatting workflows, while [loggre](https://github.com/donatj/loggre) gives me a small playground for parsing logs. I’ve also continued polishing [hookah](https://github.com/donatj/hookah), my Go-based GitHub webhook server that hands event payloads off to scripts in whatever language fits the job. ([github.com](https://github.com/donatj/loggre))
+I’ve been doing a portability and maintainability pass across several small tools. [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) got safer CLI testing and a refreshed linting and formatting workflow, while [ttouch](https://github.com/donatj/ttouch), [gifopt](https://github.com/donatj/gifopt), and [appsettings](https://github.com/donatj/appsettings) picked up Go 1.27 compatibility work. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
 
-On the smaller-tool side, I’ve been revisiting [SimpleCalendar](https://github.com/donatj/SimpleCalendar), [tabasco](https://github.com/donatj/tabasco), and [force-color.org](https://github.com/donatj/force-color.org)—a mix of reusable PHP, browser, and web tooling. I keep enjoying projects where a narrow problem can be turned into something compact and useful.
+I also expanded current-runtime coverage in [Pushover-PHP](https://github.com/donatj/Pushover-PHP), including PHP 8.5 in CI. I’ve been enjoying this kind of work: taking compact, practical tools and making them easier to run, test, and maintain as their ecosystems move forward. ([github.com](https://github.com/donatj/Pushover-PHP/commits/master))
 
 ### What I have been thinking about
 
-I keep coming back to the value of turning technical problems into concrete, reviewable changes. I’m also cautious about automation that can imitate learning without necessarily building much understanding underneath.
+I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m also reminded that seemingly simple interface requests—like dark mode—can become substantial when the surrounding visual assets need to be redesigned too.
 
-Last update: 2026-09-09
+Last update: 2026-09-10
