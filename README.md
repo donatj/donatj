@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been doing a portability and maintainability pass across several small tools. [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) got safer CLI testing and a refreshed linting and formatting workflow, while [ttouch](https://github.com/donatj/ttouch), [gifopt](https://github.com/donatj/gifopt), and [appsettings](https://github.com/donatj/appsettings) picked up Go 1.27 compatibility work. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
+I’ve been deepening [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more flexible CSV-to-Markdown tool, adding configurable parsing, cell transformation, compact output, and a better CLI/browser experience. I’ve also been spending time on [printf-parser](https://github.com/donatj/printf-parser), extending its handling of printf syntax while keeping the library small and easy to reason about. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
 
-I also expanded current-runtime coverage in [Pushover-PHP](https://github.com/donatj/Pushover-PHP), including PHP 8.5 in CI. I’ve been enjoying this kind of work: taking compact, practical tools and making them easier to run, test, and maintain as their ecosystems move forward. ([github.com](https://github.com/donatj/Pushover-PHP/commits/master))
+I’ve continued exploring small, practical tools too: [Pushover-PHP](https://github.com/donatj/Pushover-PHP) now exercises PHP 8.5 in CI, and [loggre](https://github.com/donatj/loggre) has become a little playground for parsing logs. I still enjoy taking narrow, everyday problems and turning them into compact tools I can actually use. ([github.com](https://github.com/donatj/Pushover-PHP/commits/master))
 
 ### What I have been thinking about
 
-I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m also reminded that seemingly simple interface requests—like dark mode—can become substantial when the surrounding visual assets need to be redesigned too.
+I keep coming back to the difference between software that imitates understanding and software that helps me build it. That’s especially on my mind with AI-assisted learning: it can make progress feel easy without necessarily producing deep understanding.
 
-Last update: 2026-09-10
+Last update: 2026-09-11
