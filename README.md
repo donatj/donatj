@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more flexible CSV-to-Markdown tool, adding configurable parsing, cell transformation, compact output, and a better CLI/browser experience. I’ve also been spending time on [printf-parser](https://github.com/donatj/printf-parser), extending its handling of printf syntax while keeping the library small and easy to reason about. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits/master))
+I’ve been giving a handful of small tools some careful maintenance attention: [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable), [ttouch](https://github.com/donatj/ttouch), [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [Pushover-PHP](https://github.com/donatj/Pushover-PHP). It’s been a nice mix of keeping practical utilities portable, testable, and comfortable with newer language runtimes.
 
-I’ve continued exploring small, practical tools too: [Pushover-PHP](https://github.com/donatj/Pushover-PHP) now exercises PHP 8.5 in CI, and [loggre](https://github.com/donatj/loggre) has become a little playground for parsing logs. I still enjoy taking narrow, everyday problems and turning them into compact tools I can actually use. ([github.com](https://github.com/donatj/Pushover-PHP/commits/master))
+I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. It’s deliberately a toy rather than a secure authenticator, but it’s been a fun way to explore small hardware, USB HID, Wi‑Fi, and generated credentials together.
 
 ### What I have been thinking about
 
-I keep coming back to the difference between software that imitates understanding and software that helps me build it. That’s especially on my mind with AI-assisted learning: it can make progress feel easy without necessarily producing deep understanding.
+I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m also reminded that seemingly simple interface requests can become substantial once the surrounding design and assets have to support them.
 
-Last update: 2026-09-11
+Last update: 2026-09-12
