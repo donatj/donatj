@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been giving a handful of small tools some careful maintenance attention: [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable), [ttouch](https://github.com/donatj/ttouch), [gifopt](https://github.com/donatj/gifopt), [appsettings](https://github.com/donatj/appsettings), and [Pushover-PHP](https://github.com/donatj/Pushover-PHP). It’s been a nice mix of keeping practical utilities portable, testable, and comfortable with newer language runtimes.
+I’ve been deepening [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more flexible CSV-to-Markdown tool, with configurable parsing, cell transformations, compact output, and support across the CLI, browser, Node, and TypeScript. I’ve also been extending [printf-parser](https://github.com/donatj/printf-parser), keeping its small PHP API useful for turning `printf`-style strings into structured lexemes.
 
-I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. It’s deliberately a toy rather than a secure authenticator, but it’s been a fun way to explore small hardware, USB HID, Wi‑Fi, and generated credentials together.
+I keep coming back to small tools that solve narrow, practical problems without becoming complicated. Lately I’ve also been thinking about how AI-assisted coding and learning can make progress feel easy while still leaving the deeper understanding to be earned.
 
-### What I have been thinking about
-
-I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m also reminded that seemingly simple interface requests can become substantial once the surrounding design and assets have to support them.
-
-Last update: 2026-09-12
+Last update: 2026-09-13
