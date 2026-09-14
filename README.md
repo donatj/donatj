@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more flexible CSV-to-Markdown tool, with configurable parsing, cell transformations, compact output, and support across the CLI, browser, Node, and TypeScript. I’ve also been extending [printf-parser](https://github.com/donatj/printf-parser), keeping its small PHP API useful for turning `printf`-style strings into structured lexemes.
+I’ve been focused on making small tools comfortable with newer runtimes. [gifopt](https://github.com/donatj/gifopt) and [appsettings](https://github.com/donatj/appsettings) now test against Go 1.27, while [Pushover-PHP](https://github.com/donatj/Pushover-PHP) adds PHP 8.5 coverage. I also gave [ttouch](https://github.com/donatj/ttouch) a little cleanup. ([github.com](https://github.com/donatj/gifopt/commits))
 
-I keep coming back to small tools that solve narrow, practical problems without becoming complicated. Lately I’ve also been thinking about how AI-assisted coding and learning can make progress feel easy while still leaving the deeper understanding to be earned.
+The more fun thread has been [picopass](https://github.com/donatj/picopass), my TinyGo Raspberry Pi Pico 2 W experiment. I changed its HID behavior so normal button presses no longer submit forms, while a quick second press provides a convenient Return action—[the input-handling changes](https://github.com/donatj/picopass/pull/2) are now merged. ([github.com](https://github.com/donatj/picopass/pull/2))
 
-Last update: 2026-09-13
+#### What I have been thinking about
+
+I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m still interested in tools that speed things up without replacing the learning.
+
+Last update: 2026-09-14
