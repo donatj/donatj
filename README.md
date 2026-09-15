@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been focused on making small tools comfortable with newer runtimes. [gifopt](https://github.com/donatj/gifopt) and [appsettings](https://github.com/donatj/appsettings) now test against Go 1.27, while [Pushover-PHP](https://github.com/donatj/Pushover-PHP) adds PHP 8.5 coverage. I also gave [ttouch](https://github.com/donatj/ttouch) a little cleanup. ([github.com](https://github.com/donatj/gifopt/commits))
+I’ve been pushing [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) toward a more capable 2.0 release: configurable parsing, cell transformations, compact output, and cleaner CommonJS, ESM, browser, and CLI support. I also carried that upgrade into [force-color.org](https://github.com/donatj/force-color.org), which catalogs software and libraries that support the `FORCE_COLOR` standard. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits))
 
-The more fun thread has been [picopass](https://github.com/donatj/picopass), my TinyGo Raspberry Pi Pico 2 W experiment. I changed its HID behavior so normal button presses no longer submit forms, while a quick second press provides a convenient Return action—[the input-handling changes](https://github.com/donatj/picopass/pull/2) are now merged. ([github.com](https://github.com/donatj/picopass/pull/2))
+I’ve also been having fun with [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard with Wi‑Fi time sync, serial output, and USB HID input. It’s a small hardware project, but it’s been a nice change of pace from library work. ([github.com](https://github.com/donatj/picopass/commits))
 
-#### What I have been thinking about
+### What I have been thinking about
 
-I keep coming back to the difference between automation that helps me understand a problem and automation that merely produces an answer. I’m still interested in tools that speed things up without replacing the learning.
+I keep thinking about how AI-assisted coding can make progress feel effortless while still leaving the deeper understanding to be earned—much like relying on a calculator before really learning the underlying math.
 
-Last update: 2026-09-14
+Last update: 2026-09-15
