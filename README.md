@@ -12,12 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been pushing [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) toward a more capable 2.0 release: configurable parsing, cell transformations, compact output, and cleaner CommonJS, ESM, browser, and CLI support. I also carried that upgrade into [force-color.org](https://github.com/donatj/force-color.org), which catalogs software and libraries that support the `FORCE_COLOR` standard. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits))
+I’ve been giving a few small tools some attention: [gifopt](https://github.com/donatj/gifopt) for shrinking animated GIFs, [appsettings](https://github.com/donatj/appsettings) for simple hierarchical Go configuration, and [Pushover-PHP](https://github.com/donatj/Pushover-PHP) for sending notifications from PHP. I’ve also been polishing [ttouch](https://github.com/donatj/ttouch), which creates context-aware starter files from JavaScript templates.
 
-I’ve also been having fun with [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard with Wi‑Fi time sync, serial output, and USB HID input. It’s a small hardware project, but it’s been a nice change of pace from library work. ([github.com](https://github.com/donatj/picopass/commits))
+The more playful thread has been [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. I’ve been thinking about the boundary between automation that helps me understand a problem and automation that simply produces an answer—especially when learning with AI.
 
-### What I have been thinking about
-
-I keep thinking about how AI-assisted coding can make progress feel effortless while still leaving the deeper understanding to be earned—much like relying on a calculator before really learning the underlying math.
-
-Last update: 2026-09-15
+Last update: 2026-09-16
