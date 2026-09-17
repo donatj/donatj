@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been giving a few small tools some attention: [gifopt](https://github.com/donatj/gifopt) for shrinking animated GIFs, [appsettings](https://github.com/donatj/appsettings) for simple hierarchical Go configuration, and [Pushover-PHP](https://github.com/donatj/Pushover-PHP) for sending notifications from PHP. I’ve also been polishing [ttouch](https://github.com/donatj/ttouch), which creates context-aware starter files from JavaScript templates.
+I’ve been pushing [force-color.org](https://force-color.org/) forward as a practical reference for the `FORCE_COLOR` environment-variable standard—helping command-line tools behave consistently when output is piped or running in CI. I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard with Wi‑Fi time sync, serial output, and USB HID input.
 
-The more playful thread has been [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. I’ve been thinking about the boundary between automation that helps me understand a problem and automation that simply produces an answer—especially when learning with AI.
+I’ve also been enjoying the balance between tiny hardware experiments and useful developer tooling. Lately, I’ve been thinking more about AI-assisted coding too: it can make a decent first pass feel almost effortless, but the deeper understanding still has to be earned.
 
-Last update: 2026-09-16
+Last update: 2026-09-17
