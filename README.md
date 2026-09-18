@@ -12,8 +12,8 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been pushing [force-color.org](https://force-color.org/) forward as a practical reference for the `FORCE_COLOR` environment-variable standard—helping command-line tools behave consistently when output is piped or running in CI. I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard with Wi‑Fi time sync, serial output, and USB HID input.
+I’ve been tinkering with [picopass](https://github.com/donatj/picopass), and I also raised a GitHub rendering issue affecting the project page. ([github.com](https://github.com/orgs/community/discussions/207378?utm_source=openai))
 
-I’ve also been enjoying the balance between tiny hardware experiments and useful developer tooling. Lately, I’ve been thinking more about AI-assisted coding too: it can make a decent first pass feel almost effortless, but the deeper understanding still has to be earned.
+I’ve also been thinking about practical trade-offs in software: broader macOS support, the strengths of existing Linux package managers, and how dark mode can become a surprisingly involved design project when imagery is involved.
 
-Last update: 2026-09-17
+Last update: 2026-09-18
