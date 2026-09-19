@@ -12,12 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been polishing [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more modern 2.0 release: better CSV parsing, configurable quoting and escaping, compact table output, and hooks for transforming cells. I’ve also been making its browser, CommonJS, and ESM builds easier to rely on in real projects. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits))
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. It pulls time over Wi‑Fi/NTP and presents itself over USB as serial and HID, with buttons for typing the current time, a stored password, or a fresh one-time code. I also used its documentation as the basis for a GitHub Markdown rendering report.
 
-I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Pico 2 W into a physical TOTP keyboard. The latest work simplified the button handling and added a double-press action for sending Return, making the little device more pleasant to use at a desk. ([github.com](https://github.com/donatj/picopass/commits))
+### What I have been thinking about
 
-#### What I have been thinking about
-
-I’ve been thinking about developer tools that remove everyday friction—especially solid macOS support—and about how much a coding assistant’s usefulness comes down to whether it can reliably turn an idea into working code in one pass.
+I’ve been thinking about putting effort into better macOS support where it can make a real difference, rather than recreating strengths Linux already has. I’ve also been impressed by coding tools that can produce a useful first pass, and I’m curious about how they’ll reshape the everyday rhythm of writing software.
 
 Last update: 2026-09-19
