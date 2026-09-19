@@ -12,8 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tinkering with [picopass](https://github.com/donatj/picopass), and I also raised a GitHub rendering issue affecting the project page. ([github.com](https://github.com/orgs/community/discussions/207378?utm_source=openai))
+I’ve been modernizing [mddoc](https://github.com/donatj/mddoc), my Markdown documentation generator for PHP. I replaced its reflection layer with source-based parsing and expanded support for modern PHPDoc types, so generated documentation can express richer type information while preserving existing output where it still makes sense. ([github.com](https://github.com/donatj/mddoc/pull/33))
 
-I’ve also been thinking about practical trade-offs in software: broader macOS support, the strengths of existing Linux package managers, and how dark mode can become a surprisingly involved design project when imagery is involved.
+On the hardware side, I’ve been refining [picopass](https://github.com/donatj/picopass), my experimental physical TOTP keyboard. I added a same-button double press that types Return, keeping entering a value and submitting it as separate actions. It’s a small interaction improvement to a deliberately playful experiment—not a production authenticator. ([github.com](https://github.com/donatj/picopass/commits))
 
-Last update: 2026-09-18
+### What I have been thinking about
+
+I’ve been thinking about where developer tooling can add the most value, especially broader macOS package-manager support. I’ve also been comparing coding assistants through everyday use, paying attention to how often they produce useful code on the first try.
+
+Last update: 2026-09-19
