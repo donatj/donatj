@@ -12,12 +12,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been modernizing [mddoc](https://github.com/donatj/mddoc), my Markdown documentation generator for PHP. I replaced its reflection layer with source-based parsing and expanded support for modern PHPDoc types, so generated documentation can express richer type information while preserving existing output where it still makes sense. ([github.com](https://github.com/donatj/mddoc/pull/33))
+I’ve been polishing [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) into a more modern 2.0 release: better CSV parsing, configurable quoting and escaping, compact table output, and hooks for transforming cells. I’ve also been making its browser, CommonJS, and ESM builds easier to rely on in real projects. ([github.com](https://github.com/donatj/CsvToMarkdownTable/commits))
 
-On the hardware side, I’ve been refining [picopass](https://github.com/donatj/picopass), my experimental physical TOTP keyboard. I added a same-button double press that types Return, keeping entering a value and submitting it as separate actions. It’s a small interaction improvement to a deliberately playful experiment—not a production authenticator. ([github.com](https://github.com/donatj/picopass/commits))
+I’ve also been tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Pico 2 W into a physical TOTP keyboard. The latest work simplified the button handling and added a double-press action for sending Return, making the little device more pleasant to use at a desk. ([github.com](https://github.com/donatj/picopass/commits))
 
-### What I have been thinking about
+#### What I have been thinking about
 
-I’ve been thinking about where developer tooling can add the most value, especially broader macOS package-manager support. I’ve also been comparing coding assistants through everyday use, paying attention to how often they produce useful code on the first try.
+I’ve been thinking about developer tools that remove everyday friction—especially solid macOS support—and about how much a coding assistant’s usefulness comes down to whether it can reliably turn an idea into working code in one pass.
 
 Last update: 2026-09-19
