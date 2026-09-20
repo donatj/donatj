@@ -12,10 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. It pulls time over Wi‑Fi/NTP and presents itself over USB as serial and HID, with buttons for typing the current time, a stored password, or a fresh one-time code. I also used its documentation as the basis for a GitHub Markdown rendering report.
+I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing time, a stored password, or a freshly generated TOTP code. It’s deliberately a toy rather than a security product, but it has been a fun way to combine Wi‑Fi time sync, USB HID, and simple hardware input. ([github.com](https://github.com/donatj/picopass))
 
 ### What I have been thinking about
 
-I’ve been thinking about putting effort into better macOS support where it can make a real difference, rather than recreating strengths Linux already has. I’ve also been impressed by coding tools that can produce a useful first pass, and I’m curious about how they’ll reshape the everyday rhythm of writing software.
+I’ve also been thinking about practical platform trade-offs—especially where macOS support can matter most—and about coding tools that can turn a clear request into useful code with minimal back-and-forth.
 
-Last update: 2026-09-19
+Last update: 2026-09-20
