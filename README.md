@@ -12,10 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing time, a stored password, or a freshly generated TOTP code. It’s deliberately a toy rather than a security product, but it has been a fun way to combine Wi‑Fi time sync, USB HID, and simple hardware input. ([github.com](https://github.com/donatj/picopass))
+I shipped a new release of [mddoc](https://github.com/donatj/mddoc), my PHP documentation generator, keeping the tooling moving as its parser and documentation dependencies evolve. I’ve also been tinkering with [picopass](https://github.com/donatj/picopass) and used it to surface a GitHub Markdown-rendering edge case that affects project documentation. ([root.packagist.org](https://root.packagist.org/packages/donatj/mddoc?utm_source=openai))
 
 ### What I have been thinking about
 
-I’ve also been thinking about practical platform trade-offs—especially where macOS support can matter most—and about coding tools that can turn a clear request into useful code with minimal back-and-forth.
+I’ve been experimenting with coding assistants and remain most interested in the ones that can turn a well-scoped request into useful working code with minimal back-and-forth. I’m also still rooting for thoughtful macOS support in developer tooling.
 
-Last update: 2026-09-20
+Last update: 2026-09-21
