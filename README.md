@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been having fun at the hardware/software boundary with [picopass](https://github.com/donatj/picopass), my TinyGo experiment for turning a Raspberry Pi Pico 2 W into a physical TOTP keyboard. Alongside that, I’ve been tightening up the frontend workflow for [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), with [scoped formatting for its TypeScript and Sass sources](https://github.com/ShieldedDotDev/shieldeddotdev/pull/371) so the codebase can stay consistent without treating generated assets as hand-maintained source.
+I’ve been tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. I refined its button behavior so normal presses type a value without submitting a form, while a quick second press deliberately sends Return.
 
-I also gave my PHP tooling some attention: I updated [Loggers](https://github.com/CorpusPHP/Loggers) to use [mddoc](https://github.com/donatj/mddoc) 0.11.1 and regenerated its API documentation in [the accompanying update](https://github.com/CorpusPHP/Loggers/pull/74). That keeps the library’s reference material derived from the code rather than slowly drifting away from it.
+I’ve also been extending [Exporter](https://github.com/QuorumCollection/Exporter), our streamed PHP spreadsheet-export library. I added a small XLSX engine that packages Office Open XML worksheets into a streamed ZIP archive, giving the library a modern Excel format alongside its CSV, TSV, and SpreadsheetML support. [The pull request adds the initial XLSX export path](https://github.com/QuorumCollection/Exporter/pull/22).
 
-For command-line utilities, I moved [imgdedup](https://github.com/donatj/imgdedup) onto the Bitcask v2 cache backend, continuing the work of making image-deduplication runs practical on real collections while keeping the tool straightforward to use.
+It’s been a compact stretch of making small data-moving tools more useful: hardware that can type short-lived codes deliberately, and exports that can produce a broadly useful spreadsheet format without abandoning streaming.
 
 ### What I have been thinking about
 
-I’ve been thinking a lot about AI-assisted programming as a force that makes codebases more malleable: it can make large refactors much less daunting, but it also makes careful human review and clear constraints even more important.
+I’ve been thinking about AI-assisted coding as something that can speed up concrete, well-directed implementation and make big refactors less intimidating—but not something that removes the need for people to understand and review what they merge.
 
 Last update: 2026-09-22
