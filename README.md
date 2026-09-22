@@ -12,10 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo firmware experiment that turns a Raspberry Pi Pico 2 W into a physical TOTP keyboard. I refined its button behavior so typing a value doesn’t automatically submit a form, while a quick double-press still provides an intentional Return key—[the merged change](https://github.com/donatj/picopass/pull/2) also simplifies the input handling and documents the gesture.
+I’ve been having fun at the hardware/software boundary with [picopass](https://github.com/donatj/picopass), my TinyGo experiment for turning a Raspberry Pi Pico 2 W into a physical TOTP keyboard. Alongside that, I’ve been tightening up the frontend workflow for [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), with [scoped formatting for its TypeScript and Sass sources](https://github.com/ShieldedDotDev/shieldeddotdev/pull/371) so the codebase can stay consistent without treating generated assets as hand-maintained source.
+
+I also gave my PHP tooling some attention: I updated [Loggers](https://github.com/CorpusPHP/Loggers) to use [mddoc](https://github.com/donatj/mddoc) 0.11.1 and regenerated its API documentation in [the accompanying update](https://github.com/CorpusPHP/Loggers/pull/74). That keeps the library’s reference material derived from the code rather than slowly drifting away from it.
+
+For command-line utilities, I moved [imgdedup](https://github.com/donatj/imgdedup) onto the Bitcask v2 cache backend, continuing the work of making image-deduplication runs practical on real collections while keeping the tool straightforward to use.
 
 ### What I have been thinking about
 
-I’ve also been thinking about AI coding tools less as text-summary machines and more in terms of whether they can reliably help produce a solid piece of code in one pass.
+I’ve been thinking a lot about AI-assisted programming as a force that makes codebases more malleable: it can make large refactors much less daunting, but it also makes careful human review and clear constraints even more important.
 
 Last update: 2026-09-22
