@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been continuing to tinker with [picopass](https://github.com/donatj/picopass), my TinyGo experiment that turns a Raspberry Pi Pico 2 W into a physical keyboard for typing a password, the current UTC time, or a freshly generated TOTP code.
+I’ve been adding native XLSX output to [Exporter](https://github.com/QuorumCollection/Exporter), our streamed PHP spreadsheet-export library. The new engine packages Office Open XML worksheets into a streamed ZIP archive, giving exports a modern Excel format without abandoning the library’s incremental, low-overhead approach. [I’ve opened the work for review](https://github.com/QuorumCollection/Exporter/pull/22).
 
-I refined the button interaction so normal presses type their value without accidentally submitting a form, while a quick repeat press deliberately sends Return. It’s a small hardware-input detail, but it makes the device more practical to use at a keyboard.
+I’ve also been continuing to experiment with [picopass](https://github.com/donatj/picopass), my small Raspberry Pi Pico 2 W hardware project, while using it as a real-world example in a GitHub Markdown-rendering report.
 
-I’m also keeping the project firmly in “experiment” territory: it combines Wi-Fi time sync, USB serial logging, and HID keyboard output as a way to explore TinyGo and the Pico 2 W—not as a security product.
+It’s been a nicely focused stretch of making data exports more practical while keeping a little room for playful hardware experiments.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI coding as a tool that can make large refactors dramatically cheaper, but not a substitute for understanding what gets merged. I’m finding the useful approach is still to stay involved: define the intended shape of the solution, review the result, and treat generated code as something to actively own rather than hand off.
+I’ve been thinking about AI-assisted programming as a tool for speeding up concrete, well-directed implementation and making large refactors less daunting—not as a replacement for understanding the code or carefully reviewing what gets merged.
 
-Last update: 2026-09-23
+Last update: 2026-09-24
