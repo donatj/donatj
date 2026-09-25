@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been adding native XLSX output to [Exporter](https://github.com/QuorumCollection/Exporter), our streamed PHP spreadsheet-export library. The new engine packages Office Open XML worksheets into a streamed ZIP archive, giving exports a modern Excel format without abandoning the library’s incremental, low-overhead approach. [I’ve opened the work for review](https://github.com/QuorumCollection/Exporter/pull/22).
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a configured password, or a freshly generated TOTP code.
 
-I’ve also been continuing to experiment with [picopass](https://github.com/donatj/picopass), my small Raspberry Pi Pico 2 W hardware project, while using it as a real-world example in a GitHub Markdown-rendering report.
+I’ve been wiring together Wi‑Fi and NTP time synchronization with USB serial logging and HID keyboard output, then using three physical buttons as the interface. The goal is to explore the Pico 2 W and TinyGo while making a little desktop gadget that can enter a few frequently needed values without reaching for another app.
 
-It’s been a nicely focused stretch of making data exports more practical while keeping a little room for playful hardware experiments.
+I’ve also been refining the button behavior so a normal press types its value while a quick repeat press deliberately sends Return. It’s still firmly an experiment rather than a security product, but it has been a fun way to work through hardware input, timing, and USB-device behavior in one compact project.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI-assisted programming as a tool for speeding up concrete, well-directed implementation and making large refactors less daunting—not as a replacement for understanding the code or carefully reviewing what gets merged.
+I’ve been thinking about AI coding as something that can make large refactors much cheaper without removing the need to understand and review what gets merged. I find it most useful when I stay specific about the shape of the solution, actively own the result, and treat generated code as mutable material—not a substitute for engineering judgment.
 
-Last update: 2026-09-24
+Last update: 2026-09-25
