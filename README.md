@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a small physical TOTP keyboard. It syncs time over Wi‑Fi and NTP, then acts as both a USB serial device and an HID keyboard for typing a timestamp, stored password, or freshly generated code from dedicated buttons.
+I’ve been continuing work on [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
 
-I also used picopass as a real-world example while reporting a GitHub Markdown-rendering problem, helping document how image alignment can interfere with README headings. It has been a useful excuse to keep refining the project’s hardware-focused documentation alongside the firmware experiment.
+I’ve focused on making the device’s physical interaction simpler and more useful: the buttons now have cleaner input handling, and a same-button double press can send Return instead of the button’s usual value. I also added an example device image to make the project easier to understand at a glance.
 
-More broadly, I’ve been enjoying the combination of small, practical tools and deliberately constrained experiments: making something tangible with a microcontroller, then paying attention to the surrounding developer experience that helps people understand and use it.
+I’m keeping picopass firmly in “toy experiment” territory rather than treating it as an authenticator: it is useful for disposable test credentials and for exploring Wi-Fi, NTP, USB serial, and HID keyboard behavior on tiny hardware, not for protecting real accounts.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI-assisted programming as a way to accelerate well-specified implementation and make large refactors less intimidating, while still requiring people to understand and review the code they merge.
+I’ve been thinking about AI as something that can make large refactors much cheaper without replacing human responsibility for the code. Software may be increasingly mutable, but architecture still matters when I expect to keep extending a system—and I want people reviewing and understanding what they merge.
 
-Last update: 2026-09-27
+Last update: 2026-09-28
