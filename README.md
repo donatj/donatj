@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
+I’ve been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a configured password, or a freshly generated TOTP code. I’m especially interested in the practical edges of combining Wi-Fi time sync, serial output, HID input, and a few physical buttons in a deliberately simple hardware project.
 
-I’ve been refining the little device’s physical interface so it is more useful at a desk: its buttons handle input cleanly, and a quick repeat press can send Return instead of the button’s normal text. It is a fun way to explore Wi-Fi, NTP, USB serial, and HID keyboard behavior on very small hardware.
+I also shipped [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) 2.0.0, continuing to make the CSV-to-Markdown converter more useful both as a library and at the command line. That included [renaming the CLI to `csv2md`](https://github.com/donatj/CsvToMarkdownTable/pull/221), which makes the command a bit more direct when I just want to turn delimited data into a table I can paste into documentation.
 
-I’m deliberately keeping picopass in experiment territory rather than presenting it as a security product. It is useful for disposable test credentials and for learning how these pieces fit together, but real accounts deserve purpose-built, security-reviewed authenticators.
+More generally, I’ve been enjoying small, focused tools that make everyday development work a little less frictionful—whether that means moving structured text between formats or giving a tiny microcontroller a tangible interface.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as a tool that can make large refactors much cheaper without removing the need for people to understand and review what they merge. Code may be more mutable than ever, but architecture still matters when I expect to keep building on a system.
+I’ve been thinking about AI as a tool that can make substantial refactors much cheaper, while still leaving people responsible for understanding and reviewing the code they merge. Codebases may be more mutable than they used to be, but architecture still matters when I expect to keep building on top of them.
 
-Last update: 2026-09-29
+Last update: 2026-09-30
