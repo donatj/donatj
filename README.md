@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been continuing to tinker with [picopass](https://github.com/donatj/picopass), my TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small physical keyboard that can type the time, a stored password, or a fresh TOTP code. I’ve been refining its button-driven interaction and keeping it firmly in the realm of disposable-credential hardware experimentation rather than a security product. ([github.com](https://github.com/donatj/picopass))
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
 
-I also wrapped up a substantial [CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable) refresh: [modernizing CSV parsing and package distribution](https://github.com/donatj/CsvToMarkdownTable/pull/198). The converter now uses a real CSV parser, which makes quoted fields, escaped quotes, and embedded newlines behave much more reliably while preserving its usefulness in browsers, Node, and the command line. ([github.com](https://github.com/donatj/CsvToMarkdownTable/pull/198))
+Most recently, I’ve been making its physical interaction feel more deliberate: button handling is cleaner, and pressing the same button twice can send Return instead of its usual value. I’ve also added a device example so the hardware experiment is easier to grasp at a glance.
 
-The thread connecting those projects has been making small tools more trustworthy in the places where their simple interfaces meet messy real input—whether that is physical buttons and USB keyboards or CSV files that are more complicated than they first appear.
+I’m keeping picopass firmly in toy-project territory rather than treating it as an authenticator. It’s a useful way to explore Wi‑Fi, NTP, USB serial, and HID keyboard behavior on small hardware with disposable test credentials.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as a tool that can make large refactors much cheaper, without removing the need for people to understand and review what they merge. Code may be increasingly mutable, but architecture still matters whenever I expect to keep building on a system.
+I’ve been thinking about AI as a tool that can make large refactors far cheaper without removing the need for people to understand and review the code they merge. Software is increasingly mutable, but architecture still matters when I expect to keep building on a system.
 
-Last update: 2026-10-01
+Last update: 2026-10-02
