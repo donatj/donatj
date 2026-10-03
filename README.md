@@ -14,12 +14,12 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
 
-Most recently, I’ve been making its physical interaction feel more deliberate: button handling is cleaner, and pressing the same button twice can send Return instead of its usual value. I’ve also added a device example so the hardware experiment is easier to grasp at a glance.
+I’ve been polishing the physical interaction: the buttons now have cleaner press-and-release handling, and pressing the same button twice quickly sends Return instead of repeating its usual value. It makes the little device more convenient for disposable testing and small keyboard-driven workflows.
 
-I’m keeping picopass firmly in toy-project territory rather than treating it as an authenticator. It’s a useful way to explore Wi‑Fi, NTP, USB serial, and HID keyboard behavior on small hardware with disposable test credentials.
+I’m keeping picopass firmly in toy-project territory rather than treating it as an authenticator. It has been a useful way to explore Wi-Fi, NTP time synchronization, USB serial, HID keyboard behavior, and input handling on small hardware—without confusing an experiment with a security product.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as a tool that can make large refactors far cheaper without removing the need for people to understand and review the code they merge. Software is increasingly mutable, but architecture still matters when I expect to keep building on a system.
+I’ve been thinking about AI as something that can make major refactors dramatically cheaper without removing the need for humans to understand and review what they merge. Codebases may be more mutable than they used to be, but architecture still matters when I expect to keep building on top of them.
 
-Last update: 2026-10-02
+Last update: 2026-10-03
