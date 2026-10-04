@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a stored password, or a freshly generated TOTP code.
 
-I’ve been polishing the physical interaction: the buttons now have cleaner press-and-release handling, and pressing the same button twice quickly sends Return instead of repeating its usual value. It makes the little device more convenient for disposable testing and small keyboard-driven workflows.
+I’ve been refining the device’s button-driven interaction, including a same-button double press that sends Return, while keeping its USB serial logging and HID keyboard behavior working side by side. It has been a fun excuse to work through Wi-Fi, NTP time sync, and tiny-device input handling in one compact project.
 
-I’m keeping picopass firmly in toy-project territory rather than treating it as an authenticator. It has been a useful way to explore Wi-Fi, NTP time synchronization, USB serial, HID keyboard behavior, and input handling on small hardware—without confusing an experiment with a security product.
+I’m deliberately treating picopass as a disposable-credentials experiment rather than a security product: it is useful for testing and learning, but not for protecting real accounts. I like that constraint—it leaves room to explore the hardware and software without pretending the prototype is something it is not.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as something that can make major refactors dramatically cheaper without removing the need for humans to understand and review what they merge. Codebases may be more mutable than they used to be, but architecture still matters when I expect to keep building on top of them.
+I’ve been thinking about AI as a tool that can make major refactors dramatically cheaper while still requiring people to understand and review the code they merge. Codebases may be more mutable than ever, but architecture still matters when I expect to keep building on top of them.
 
-Last update: 2026-10-03
+Last update: 2026-10-04
