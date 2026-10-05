@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a stored password, or a freshly generated TOTP code.
+I’ve been pushing forward on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest work is [adding enum documentation](https://github.com/donatj/mddoc/pull/53), including backed and unbacked cases, while a larger in-progress effort teaches it to discover classes through Composer rather than making projects duplicate autoload mappings. I’m also making inherited API descriptions clearer about where they came from, so generated docs better reflect real ownership and behavior.
 
-I’ve been refining the device’s button-driven interaction, including a same-button double press that sends Return, while keeping its USB serial logging and HID keyboard behavior working side by side. It has been a fun excuse to work through Wi-Fi, NTP time sync, and tiny-device input handling in one compact project.
+Over at [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), I added a homepage generator for fixed README badges: it previews the SVG and produces ready-to-copy Markdown from a title, value, and color. That makes the service more immediately useful for someone who just needs a simple badge without manually assembling image URLs.
 
-I’m deliberately treating picopass as a disposable-credentials experiment rather than a security product: it is useful for testing and learning, but not for protecting real accounts. I like that constraint—it leaves room to explore the hardware and software without pretending the prototype is something it is not.
+I’ve also kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a configured password, or a generated TOTP code. The device now supports a same-button double press for Return, which makes its physical controls more useful while keeping it firmly in the realm of disposable-credential hardware experimentation.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as a tool that can make major refactors dramatically cheaper while still requiring people to understand and review the code they merge. Codebases may be more mutable than ever, but architecture still matters when I expect to keep building on top of them.
+I’ve been thinking about AI as a tool that can make major refactors dramatically cheaper, without reducing the need for people to understand and review what they merge. Code may be more mutable than it used to be, but architecture still matters when I expect a system to keep growing.
 
-Last update: 2026-10-04
+Last update: 2026-10-05
