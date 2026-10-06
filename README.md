@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been pushing forward on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest work is [adding enum documentation](https://github.com/donatj/mddoc/pull/53), including backed and unbacked cases, while a larger in-progress effort teaches it to discover classes through Composer rather than making projects duplicate autoload mappings. I’m also making inherited API descriptions clearer about where they came from, so generated docs better reflect real ownership and behavior.
+I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a stored test password, or a freshly generated TOTP code. It has been a fun way to explore Wi‑Fi, NTP, USB serial, HID input, and physical-button interactions on constrained hardware.
 
-Over at [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), I added a homepage generator for fixed README badges: it previews the SVG and produces ready-to-copy Markdown from a title, value, and color. That makes the service more immediately useful for someone who just needs a simple badge without manually assembling image URLs.
+I’ve also been continuing to polish the [Pixel Circle Generator](https://github.com/donatj/Circle-Generator), the browser tool I maintain for planning circles and ovals in block-building games. I’ve been smoothing out the modern editor experience and following up on compatibility behavior so the tool stays practical for people using it in different browsers and embedded environments.
 
-I’ve also kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a configured password, or a generated TOTP code. The device now supports a same-button double press for Return, which makes its physical controls more useful while keeping it firmly in the realm of disposable-credential hardware experimentation.
+Across both projects, I’ve been enjoying work that keeps software close to its real-world use: tiny hardware experiments on one side, and a long-running visual tool that helps people turn an idea into a build on the other.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as a tool that can make major refactors dramatically cheaper, without reducing the need for people to understand and review what they merge. Code may be more mutable than it used to be, but architecture still matters when I expect a system to keep growing.
+I’ve been thinking about AI as something that can make large refactors much cheaper without removing the need for people to understand and review the code they merge. Codebases may be more mutable than they used to be, but architecture still matters whenever I expect to keep building on a system.
 
-Last update: 2026-10-05
+Last update: 2026-10-06
