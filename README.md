@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a stored test password, or a freshly generated TOTP code. It has been a fun way to explore Wi‑Fi, NTP, USB serial, HID input, and physical-button interactions on constrained hardware.
+I’ve been continuing work on [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
 
-I’ve also been continuing to polish the [Pixel Circle Generator](https://github.com/donatj/Circle-Generator), the browser tool I maintain for planning circles and ovals in block-building games. I’ve been smoothing out the modern editor experience and following up on compatibility behavior so the tool stays practical for people using it in different browsers and embedded environments.
+I’ve been refining its physical interaction so the three-button interface is more useful in practice: each button can now send its normal value or, with a quick repeat press, send Return instead. It remains a compact way to explore Wi-Fi time sync, USB serial, and HID keyboard behavior on tiny hardware.
 
-Across both projects, I’ve been enjoying work that keeps software close to its real-world use: tiny hardware experiments on one side, and a long-running visual tool that helps people turn an idea into a build on the other.
+I’m deliberately keeping picopass in toy-project territory rather than presenting it as an authenticator. It is useful for disposable test credentials and for learning how these hardware and input pieces fit together, but it is not intended to protect real accounts.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as something that can make large refactors much cheaper without removing the need for people to understand and review the code they merge. Codebases may be more mutable than they used to be, but architecture still matters whenever I expect to keep building on a system.
+I’ve been thinking about how much software work still comes back to clarity and review. Tools can make changes cheaper, but I still want code, documentation, and links to be understandable enough that people can confidently review what they are merging.
 
-Last update: 2026-10-06
+Last update: 2026-10-07
