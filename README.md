@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been pushing forward on [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code. I’ve been refining the button handling, including a quick repeat press that sends Return, while keeping it squarely aimed at disposable test credentials and hands-on exploration of Wi-Fi, NTP, USB serial, and HID input.
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a stored password, or a freshly generated TOTP code.
 
-I also released an update to [mpo](https://github.com/donatj/mpo) that adds MPO writing alongside its existing stereoscopic-photo decoding and conversion tools. That means the Go library and command-line tools can now build Multi Picture Object files from multiple images as well as unpack them, making the project more useful for working both directions with old 3D-photo formats.
+I’ve been refining the hands-on interaction: the device presents itself as both a USB serial port and HID keyboard, and its three physical buttons can now use a quick second press to send Return instead of their usual value. It has been a fun way to work through Wi-Fi time sync, USB, and tiny-device input handling together.
 
-Lately I’ve been enjoying projects that connect a small, focused bit of code to something tangible: a button that types at the right moment, or a utility that gives an older image format a practical new workflow. I’m trying to keep those tools simple enough to inspect, reuse, and understand without a lot of ceremony.
+I’m keeping [picopass](https://github.com/donatj/picopass) deliberately in experiment territory rather than treating it as a real authenticator. It is useful for disposable test credentials and for learning how the pieces fit, but not for protecting anything important.
 
 ### What I have been thinking about
 
-I’ve been thinking about reviewability as a real design constraint: tools and languages that make changes easy to read can matter as much as making them easy to write. Even as AI makes large refactors cheaper, I still want the resulting systems—and the decisions behind them—to be understandable by the people responsible for maintaining them.
+I’ve been thinking about reviewability as a feature: Go’s appeal is not just that it is straightforward to write, but that straightforward code is easier for other people to understand and safely review.
 
-Last update: 2026-10-08
+Last update: 2026-10-09
