@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a stored password, or a freshly generated TOTP code.
+I’ve been deepening [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest work makes it able to document declarations nested inside conditionals, `try` blocks, functions, and methods, while building out fixture-based project tests that make generated documentation changes easier to review—see [the work to document nested declarations](https://github.com/donatj/mddoc/pull/55).
 
-I’ve been refining the hands-on interaction: the device presents itself as both a USB serial port and HID keyboard, and its three physical buttons can now use a quick second press to send Return instead of their usual value. It has been a fun way to work through Wi-Fi time sync, USB, and tiny-device input handling together.
+I also shipped MDDoc 0.13.0 with first-class Composer class lookup, PHP enum documentation, configurable wrapping for long signatures, and cleaner handling of `void` return annotations. That means documentation can follow a project’s existing Composer setup—including dependency classes—without loading those classes, while covering more modern PHP source accurately.
 
-I’m keeping [picopass](https://github.com/donatj/picopass) deliberately in experiment territory rather than treating it as a real authenticator. It is useful for disposable test credentials and for learning how the pieces fit, but not for protecting anything important.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type time, a stored value, or a freshly generated TOTP code. It remains deliberately a throwaway hardware experiment for learning about Wi-Fi, NTP, USB serial, and HID input rather than anything meant to secure real accounts.
 
 ### What I have been thinking about
 
-I’ve been thinking about reviewability as a feature: Go’s appeal is not just that it is straightforward to write, but that straightforward code is easier for other people to understand and safely review.
+I’ve been thinking a lot about reviewability: tools can make large changes cheaper to produce, but someone still needs to understand the architecture and own what lands. I’m also apparently still carrying a lot of old keyboard muscle memory around—some shortcuts never really leave you.
 
-Last update: 2026-10-09
+Last update: 2026-10-10
