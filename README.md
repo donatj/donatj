@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest work makes it able to document declarations nested inside conditionals, `try` blocks, functions, and methods, while building out fixture-based project tests that make generated documentation changes easier to review—see [the work to document nested declarations](https://github.com/donatj/mddoc/pull/55).
+I’ve been deepening [mddoc](https://github.com/donatj/mddoc), my Markdown documentation generator for PHP. I added support for documenting enums and improved how it handles Composer autoloading, so generated API docs can more reliably reflect modern PHP projects and their types.
 
-I also shipped MDDoc 0.13.0 with first-class Composer class lookup, PHP enum documentation, configurable wrapping for long signatures, and cleaner handling of `void` return annotations. That means documentation can follow a project’s existing Composer setup—including dependency classes—without loading those classes, while covering more modern PHP source accurately.
+I’ve also been building out [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), the service behind API-managed README badges. I added a homepage generator for static badges and public API documentation, making it easier to create and use badges without having to assemble URLs by hand.
 
-I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type time, a stored value, or a freshly generated TOTP code. It remains deliberately a throwaway hardware experiment for learning about Wi-Fi, NTP, USB serial, and HID input rather than anything meant to secure real accounts.
+That work has had me thinking a lot about keeping small tools useful without making them complicated: better documentation output, clearer integration points, and interfaces that make the common path feel straightforward.
 
 ### What I have been thinking about
 
-I’ve been thinking a lot about reviewability: tools can make large changes cheaper to produce, but someone still needs to understand the architecture and own what lands. I’m also apparently still carrying a lot of old keyboard muscle memory around—some shortcuts never really leave you.
+I’ve been thinking about reviewability as a feature in its own right. I still value tools and languages that make changes easy to inspect, because understanding what I’m merging matters at least as much as getting it written quickly.
 
-Last update: 2026-10-10
+Last update: 2026-10-11
