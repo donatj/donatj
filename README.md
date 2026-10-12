@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening [mddoc](https://github.com/donatj/mddoc), my Markdown documentation generator for PHP. I added support for documenting enums and improved how it handles Composer autoloading, so generated API docs can more reliably reflect modern PHP projects and their types.
+I’m extending [MDDoc](https://github.com/donatj/mddoc) so generated PHP documentation can find declarations nested inside conditionals, `try` blocks, functions, and methods—making sure valid classes, functions, enums, interfaces, and traits do not quietly disappear from the output. I’m working through this in [a pull request that documents declarations inside nested statements](https://github.com/donatj/mddoc/pull/55).
 
-I’ve also been building out [Shielded.dev](https://github.com/ShieldedDotDev/shieldeddotdev), the service behind API-managed README badges. I added a homepage generator for static badges and public API documentation, making it easier to create and use badges without having to assemble URLs by hand.
+I’ve also been making MDDoc more useful in real Composer projects: it can now discover classes through registered Composer autoloaders rather than duplicating PSR mappings, including installed dependencies, and it now generates documentation for backed and unbacked PHP enums, their cases, and values. I landed the Composer support in [a pull request that finds classes through Composer](https://github.com/donatj/mddoc/pull/38).
 
-That work has had me thinking a lot about keeping small tools useful without making them complicated: better documentation output, clearer integration points, and interfaces that make the common path feel straightforward.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo Raspberry Pi Pico 2 W experiment that acts as a small physical keyboard for typing a current time, a stored password, or a disposable TOTP code. I’ve been refining the button interaction so it is easier to use at the desk, including a quick repeat press for sending Return.
 
 ### What I have been thinking about
 
-I’ve been thinking about reviewability as a feature in its own right. I still value tools and languages that make changes easy to inspect, because understanding what I’m merging matters at least as much as getting it written quickly.
+I’ve been thinking about how much code review shapes good software work: languages and tools that make changes easy to read and reason about are especially valuable when reviewing is a central part of the job.
 
-Last update: 2026-10-11
+Last update: 2026-10-12
