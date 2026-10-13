@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’m extending [MDDoc](https://github.com/donatj/mddoc) so generated PHP documentation can find declarations nested inside conditionals, `try` blocks, functions, and methods—making sure valid classes, functions, enums, interfaces, and traits do not quietly disappear from the output. I’m working through this in [a pull request that documents declarations inside nested statements](https://github.com/donatj/mddoc/pull/55).
+I’ve been shipping a substantial update to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. It can now document enums and use Composer to find project and dependency classes without loading them, while producing cleaner output with wrapped long signatures and less noisy `void` return sections.
 
-I’ve also been making MDDoc more useful in real Composer projects: it can now discover classes through registered Composer autoloaders rather than duplicating PSR mappings, including installed dependencies, and it now generates documentation for backed and unbacked PHP enums, their cases, and values. I landed the Composer support in [a pull request that finds classes through Composer](https://github.com/donatj/mddoc/pull/38).
+I’ve also been continuing [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small USB keyboard for typing time, a stored value, or a generated TOTP code. I’ve been refining the physical interaction so the three-button device is more practical for experimenting with Wi-Fi time sync, serial logging, and HID keyboard behavior.
 
-I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo Raspberry Pi Pico 2 W experiment that acts as a small physical keyboard for typing a current time, a stored password, or a disposable TOTP code. I’ve been refining the button interaction so it is easier to use at the desk, including a quick repeat press for sending Return.
+Over in [misstep](https://github.com/donatj/misstep), I’ve been improving the plain-text MySQL modeling tool’s Composer integration so its installed command can reliably find the right autoloader. The project is still about making it quick to sketch readable table definitions and turn them into SQL.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much code review shapes good software work: languages and tools that make changes easy to read and reason about are especially valuable when reviewing is a central part of the job.
+I’ve been thinking about how much of software work is really review: tools can make producing and changing code faster, but someone still needs to understand the design, read the diff, and own what gets merged.
 
-Last update: 2026-10-12
+Last update: 2026-10-13
