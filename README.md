@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been shipping a substantial update to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. It can now document enums and use Composer to find project and dependency classes without loading them, while producing cleaner output with wrapped long signatures and less noisy `void` return sections.
+I’ve been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo firmware experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type useful bits of information on demand.
 
-I’ve also been continuing [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small USB keyboard for typing time, a stored value, or a generated TOTP code. I’ve been refining the physical interaction so the three-button device is more practical for experimenting with Wi-Fi time sync, serial logging, and HID keyboard behavior.
+I’ve been making its physical controls more practical: the buttons have cleaner input handling, and a quick second press of the same button can send Return instead of repeating the usual output. It’s been a fun way to work across Wi-Fi time sync, USB serial, and HID keyboard behavior on tiny hardware.
 
-Over in [misstep](https://github.com/donatj/misstep), I’ve been improving the plain-text MySQL modeling tool’s Composer integration so its installed command can reliably find the right autoloader. The project is still about making it quick to sketch readable table definitions and turn them into SQL.
+I’m keeping picopass deliberately in experiment territory rather than treating it as an authenticator. The point is to explore a compact, tangible interface for disposable test credentials and small automation tasks—not to replace purpose-built security hardware.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much of software work is really review: tools can make producing and changing code faster, but someone still needs to understand the design, read the diff, and own what gets merged.
+I’ve been thinking about how much easier it is to review software when the code stays straightforward. Tools can help produce changes faster, but I still care most about whether another person can understand the tradeoffs and confidently review what is being merged.
 
-Last update: 2026-10-13
+Last update: 2026-10-14
