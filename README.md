@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo firmware experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type useful bits of information on demand.
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
 
-I’ve been making its physical controls more practical: the buttons have cleaner input handling, and a quick second press of the same button can send Return instead of repeating the usual output. It’s been a fun way to work across Wi-Fi time sync, USB serial, and HID keyboard behavior on tiny hardware.
+I’ve been polishing its physical interaction model: it now works as both a USB serial device and HID keyboard, with dedicated buttons for each value and a quick repeat press for sending Return. It has been a fun way to work through Wi-Fi, NTP time sync, USB HID, and small-device input handling together.
 
-I’m keeping picopass deliberately in experiment territory rather than treating it as an authenticator. The point is to explore a compact, tangible interface for disposable test credentials and small automation tasks—not to replace purpose-built security hardware.
+I’m keeping it deliberately in experiment territory rather than presenting it as an authenticator. It is useful for disposable test credentials and for learning how these pieces fit together, while staying clear that real account protection calls for purpose-built, security-reviewed hardware.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much easier it is to review software when the code stays straightforward. Tools can help produce changes faster, but I still care most about whether another person can understand the tradeoffs and confidently review what is being merged.
+I’ve been thinking a lot about reviewability as a core engineering feature. I still appreciate Go’s straightforwardness because code that is easy to read and reason about makes it much easier for people—including me—to review confidently and keep systems understandable over time.
 
-Last update: 2026-10-14
+Last update: 2026-10-15
