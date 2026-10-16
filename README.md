@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current time, a stored password, or a freshly generated TOTP code.
+I’ve been on a documentation-tooling kick with [MDDoc](https://github.com/donatj/mddoc), shipping a new release that can document PHP enums—including cases, values, constants, and trait or interface methods. I also added Composer-based class lookup without loading those classes, plus configurable wrapping for long signatures so generated API docs stay readable.
 
-I’ve been polishing its physical interaction model: it now works as both a USB serial device and HID keyboard, with dedicated buttons for each value and a quick repeat press for sending Return. It has been a fun way to work through Wi-Fi, NTP time sync, USB HID, and small-device input handling together.
+Earlier in the same run of work, I gave [MDDoc](https://github.com/donatj/mddoc) a `--dry-run` mode for checking that generated documentation is current in CI, refreshed its PHP-style output, and moved it to a newer PHPDoc parser with PHP Parser 5 support. The theme has been making generated documentation more useful as an everyday development artifact rather than a thing to clean up afterward.
 
-I’m keeping it deliberately in experiment territory rather than presenting it as an authenticator. It is useful for disposable test credentials and for learning how these pieces fit together, while staying clear that real account protection calls for purpose-built, security-reviewed hardware.
+I also refreshed the [Photo Booth repair script](https://donatstudios.com/Lion-Photobooth-Repair) for current macOS behavior, updating its filename handling so rebuilt libraries sort correctly and adding clearer notes for Apple Silicon users.
 
 ### What I have been thinking about
 
-I’ve been thinking a lot about reviewability as a core engineering feature. I still appreciate Go’s straightforwardness because code that is easy to read and reason about makes it much easier for people—including me—to review confidently and keep systems understandable over time.
+I’ve been thinking about code review as a core part of building software: clear, straightforward code makes it easier for other people to understand changes, catch mistakes, and confidently keep a system moving.
 
-Last update: 2026-10-15
+Last update: 2026-10-16
