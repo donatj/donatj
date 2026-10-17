@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been on a documentation-tooling kick with [MDDoc](https://github.com/donatj/mddoc), shipping a new release that can document PHP enums—including cases, values, constants, and trait or interface methods. I also added Composer-based class lookup without loading those classes, plus configurable wrapping for long signatures so generated API docs stay readable.
+I’ve been improving [misstep](https://github.com/donatj/misstep), my plain-text language for sketching MySQL tables and producing SQL from them.
 
-Earlier in the same run of work, I gave [MDDoc](https://github.com/donatj/mddoc) a `--dry-run` mode for checking that generated documentation is current in CI, refreshed its PHP-style output, and moved it to a newer PHPDoc parser with PHP Parser 5 support. The theme has been making generated documentation more useful as an everyday development artifact rather than a thing to clean up afterward.
+I’ve been making its CLI behave properly when installed into another project through Composer, with [a change that uses Composer’s supplied autoloader path](https://github.com/donatj/misstep/pull/14) instead of guessing where that project keeps its dependencies.
 
-I also refreshed the [Photo Booth repair script](https://donatstudios.com/Lion-Photobooth-Repair) for current macOS behavior, updating its filename handling so rebuilt libraries sort correctly and adding clearer notes for Apple Silicon users.
+That should make the tool more dependable as a dependency while keeping its purpose simple: quickly turn readable table definitions into usable SQL.
 
 ### What I have been thinking about
 
-I’ve been thinking about code review as a core part of building software: clear, straightforward code makes it easier for other people to understand changes, catch mistakes, and confidently keep a system moving.
+I’ve been thinking about how much good code review depends on code being easy to read. That is one reason I keep appreciating Go’s straightforwardness: clarity makes it easier for people to understand, discuss, and safely maintain the software they ship.
 
-Last update: 2026-10-16
+Last update: 2026-10-17
