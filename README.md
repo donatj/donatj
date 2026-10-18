@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been improving [misstep](https://github.com/donatj/misstep), my plain-text language for sketching MySQL tables and producing SQL from them.
+I’ve been spending time on [mpo](https://github.com/donatj/mpo), my Go library and command-line toolkit for working with MPO stereoscopic photos. It can split MPOs into JPEG frames, create new MPOs, and turn them into side-by-side or anaglyph images—making older 3D-photo formats a little more practical to use. ([github.com](https://github.com/donatj/mpo))
 
-I’ve been making its CLI behave properly when installed into another project through Composer, with [a change that uses Composer’s supplied autoloader path](https://github.com/donatj/misstep/pull/14) instead of guessing where that project keeps its dependencies.
+I’ve also kept experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a small USB keyboard for typing time, a configured password, or a generated TOTP code. It’s deliberately a hands-on hardware experiment for disposable test credentials and for learning about Wi-Fi, NTP, USB serial, and HID behavior on tiny devices. ([github.com](https://github.com/donatj/picopass))
 
-That should make the tool more dependable as a dependency while keeping its purpose simple: quickly turn readable table definitions into usable SQL.
+The common thread has been small, focused tools: making niche formats easier to handle on one side, and exploring a very tangible little input device on the other.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much good code review depends on code being easy to read. That is one reason I keep appreciating Go’s straightforwardness: clarity makes it easier for people to understand, discuss, and safely maintain the software they ship.
+I’ve been thinking a lot about reviewability. I still appreciate Go because straightforward code makes it easier to understand changes, discuss tradeoffs, and take real responsibility for what gets merged.
 
-Last update: 2026-10-17
+Last update: 2026-10-18
