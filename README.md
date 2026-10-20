@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. My newest work is [teaching it to find declarations inside nested statements](https://github.com/donatj/mddoc/pull/55), so valid functions, classes, enums, interfaces, and traits do not disappear from generated documentation merely because they live inside conditionals, `try` blocks, functions, or methods.
+I’ve been building [picopass](https://github.com/donatj/picopass), a TinyGo experiment that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing the current UTC time, a stored password, or a freshly generated TOTP code.
 
-I also added [PHP enum documentation support](https://github.com/donatj/mddoc/pull/53), including backed and unbacked enums, their cases, and values. That makes the generated output more useful for projects using modern PHP features while preserving support for older PHP versions.
+I’ve been refining the device interaction so it works more naturally at the keyboard: it exposes both USB serial logging and HID input, and pressing the same button twice quickly sends Return instead of that button’s usual text.
 
-Earlier in the month, I taught MDDoc to discover classes through Composer’s registered autoloaders instead of requiring duplicated PSR mappings. That lets it document code from a project and its installed dependencies without loading those classes, which should make real-world Composer projects easier to document accurately.
+I’m keeping picopass deliberately in toy-project territory—useful for disposable test credentials and for learning my way around Wi‑Fi, NTP, USB, HID, and constrained hardware, but not something to trust as a real authenticator.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much good software depends on code being easy to review. Tools can make big changes cheaper, but I still want the resulting code and architecture to be clear enough for people to understand, question, and maintain.
+I’ve been thinking a lot about reviewability. I still like Go in part because straightforward code is easier to read, discuss, and safely extend—and careful human review remains the important part of shipping software well.
 
-Last update: 2026-10-19
+Last update: 2026-10-20
