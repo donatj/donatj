@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing a current time, a stored value, or a freshly generated TOTP code. It has been a fun way to explore the seams between Wi‑Fi time sync, USB serial, HID keyboard input, and tiny hardware—while keeping the whole thing firmly in disposable-test-credential territory. ([github.com](https://github.com/donatj/picopass))
+I’ve been pushing [MDDoc](https://github.com/donatj/mddoc) forward as a more useful PHP documentation generator. My newest work is [adding a table of contents to recursive documentation](https://github.com/donatj/mddoc/pull/56), so large generated API pages can offer stable, explicit links to documented classes, interfaces, and methods instead of making readers hunt through a long class list.
 
-I also refreshed the [Photo Booth Plist Rebuild/Repair Script](https://donatstudios.com/Lion-Photobooth-Repair) so it handles a newer macOS filename variation and can again rebuild a Photo Booth library in chronological order. I added practical notes for Apple Silicon users as well, since getting an old photo library recognized should be a repair job, not an archaeology project. ([donatstudios.com](https://donatstudios.com/Lion-Photobooth-Repair?utm_source=openai))
+I’m also teaching MDDoc to find declarations hidden inside conditionals, `try` blocks, functions, and methods through [documenting declarations nested inside statements](https://github.com/donatj/mddoc/pull/55). The goal is simple: valid classes, enums, interfaces, traits, and functions should not quietly vanish from generated docs just because of where they appear in a source file.
 
-The common thread has been small, concrete tools: hardware experiments that make an input device do one useful thing well, and maintenance utilities that keep old personal data usable when an operating-system detail shifts underneath them.
+I also shipped a pair of MDDoc releases that make it friendlier in real Composer projects: it can discover project and dependency classes through Composer’s autoloaders, document backed and unbacked enums and their cases, and offer a dry-run mode for checking whether generated documentation is current.
 
 ### What I have been thinking about
 
-I’ve been thinking about AI as something that can reduce the mechanical cost of changing software without removing the need for judgment, design, and responsibility. Faster iteration is useful, but I still want the people building and reviewing a system to understand the choices it makes.
+I’ve been reminded how deeply keyboard habits stick around: old shortcuts can stay in my hands for decades, then instantly come back the moment I sit down at a different operating system.
 
-Last update: 2026-10-21
+Last update: 2026-10-22
