@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been pushing [MDDoc](https://github.com/donatj/mddoc) forward as a more useful PHP documentation generator. My newest work is [adding a table of contents to recursive documentation](https://github.com/donatj/mddoc/pull/56), so large generated API pages can offer stable, explicit links to documented classes, interfaces, and methods instead of making readers hunt through a long class list.
+I’ve been building [picopass](https://github.com/donatj/picopass), a toy physical TOTP keyboard firmware project. It’s a small hardware experiment centered on making one-purpose input devices feel direct and useful.
 
-I’m also teaching MDDoc to find declarations hidden inside conditionals, `try` blocks, functions, and methods through [documenting declarations nested inside statements](https://github.com/donatj/mddoc/pull/55). The goal is simple: valid classes, enums, interfaces, traits, and functions should not quietly vanish from generated docs just because of where they appear in a source file.
+I’m exploring how a dedicated physical interface can turn routine authentication-related input into something more tangible than another app or browser tab. The project is intentionally an experiment rather than a security product, which gives me room to learn through the rough edges.
 
-I also shipped a pair of MDDoc releases that make it friendlier in real Composer projects: it can discover project and dependency classes through Composer’s autoloaders, document backed and unbacked enums and their cases, and offer a dry-run mode for checking whether generated documentation is current.
+More broadly, I’ve been enjoying the constraint of keeping a project focused: one device, one clear interaction model, and just enough software to make the hardware earn its place on a desk.
 
 ### What I have been thinking about
 
-I’ve been reminded how deeply keyboard habits stick around: old shortcuts can stay in my hands for decades, then instantly come back the moment I sit down at a different operating system.
+I’ve been thinking about how easily performance conclusions can depend on assumptions hidden in the layers below an application—especially around network protocols, benchmarks, and what a test is actually exercising.
 
-Last update: 2026-10-22
+Last update: 2026-10-23
