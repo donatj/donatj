@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been building [picopass](https://github.com/donatj/picopass), a toy physical TOTP keyboard firmware project. It’s a small hardware experiment centered on making one-purpose input devices feel direct and useful.
+I’ve been deepening work on [MDDoc](https://github.com/donatj/mddoc), my PHP API-documentation generator. I added support for documenting enums—including their cases, values, constants, and inherited interface or trait methods—so generated docs can keep pace with modern PHP code.
 
-I’m exploring how a dedicated physical interface can turn routine authentication-related input into something more tangible than another app or browser tab. The project is intentionally an experiment rather than a security product, which gives me room to learn through the rough edges.
+I’ve also been making MDDoc more practical in real projects: it can now find classes through Composer without loading them, wrap long signatures more readably, and handle conditionally declared functions. The goal is to make API documentation a useful, dependable part of day-to-day development rather than an afterthought.
 
-More broadly, I’ve been enjoying the constraint of keeping a project focused: one device, one clear interaction model, and just enough software to make the hardware earn its place on a desk.
+I’ve been carrying those improvements back into the PHP libraries I maintain, using MDDoc to make their generated reference material easier to keep current and easier to navigate.
 
 ### What I have been thinking about
 
-I’ve been thinking about how easily performance conclusions can depend on assumptions hidden in the layers below an application—especially around network protocols, benchmarks, and what a test is actually exercising.
+I’ve been thinking about how AI changes the experience of programming without removing the need for judgment, understanding, and responsibility for the code we choose to ship.
 
-Last update: 2026-10-23
+Last update: 2026-10-24
