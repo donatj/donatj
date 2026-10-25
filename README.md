@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deepening work on [MDDoc](https://github.com/donatj/mddoc), my PHP API-documentation generator. I added support for documenting enums—including their cases, values, constants, and inherited interface or trait methods—so generated docs can keep pace with modern PHP code.
+I’ve been revisiting [mpo](https://github.com/donatj/mpo), my Go library and command-line tools for working with stereoscopic MPO photos. It can split Multi-Picture Object files into JPEG frames, build MPOs from images, and produce side-by-side or anaglyph images.
 
-I’ve also been making MDDoc more practical in real projects: it can now find classes through Composer without loading them, wrap long signatures more readably, and handle conditionally declared functions. The goal is to make API documentation a useful, dependable part of day-to-day development rather than an afterthought.
+I’ve also continued experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a stored test password, or a fresh TOTP code. I’m keeping it explicitly in toy-project territory while exploring Wi-Fi time sync, USB serial, HID input, and physical-button interaction.
 
-I’ve been carrying those improvements back into the PHP libraries I maintain, using MDDoc to make their generated reference material easier to keep current and easier to navigate.
+Across both projects, I’ve been enjoying the constraint of small, focused tools: practical utilities with a narrow job, clear behavior, and just enough surface area to make an odd corner of computing easier to explore.
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI changes the experience of programming without removing the need for judgment, understanding, and responsibility for the code we choose to ship.
+I’ve been thinking about how easy it is to infer too much from a performance result or implementation detail. I still like measuring the behavior I care about directly—especially when protocol settings, defaults, and benchmarks can tell subtly different stories.
 
-Last update: 2026-10-24
+Last update: 2026-10-25
