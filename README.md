@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been revisiting [mpo](https://github.com/donatj/mpo), my Go library and command-line tools for working with stereoscopic MPO photos. It can split Multi-Picture Object files into JPEG frames, build MPOs from images, and produce side-by-side or anaglyph images.
+I’ve been continuing to experiment with [picopass](https://github.com/donatj/picopass), a TinyGo firmware project that turns a Raspberry Pi Pico 2 W into a small physical keyboard for typing time, test passwords, and generated TOTP codes.
 
-I’ve also continued experimenting with [picopass](https://github.com/donatj/picopass), a TinyGo project for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a stored test password, or a fresh TOTP code. I’m keeping it explicitly in toy-project territory while exploring Wi-Fi time sync, USB serial, HID input, and physical-button interaction.
+I’m using it as a practical way to explore the edges where Wi-Fi time synchronization, USB serial, HID keyboard input, and tiny embedded hardware meet. It is deliberately a toy rather than a security product, but it has been a satisfying little environment for learning how those pieces behave together.
 
-Across both projects, I’ve been enjoying the constraint of small, focused tools: practical utilities with a narrow job, clear behavior, and just enough surface area to make an odd corner of computing easier to explore.
+I’ve also been keeping the project grounded in its actual use case: disposable credentials and hands-on hardware experimentation, not protecting real accounts. That constraint lets me focus on making the device understandable and useful as an experiment without pretending it is something it is not.
 
 ### What I have been thinking about
 
-I’ve been thinking about how easy it is to infer too much from a performance result or implementation detail. I still like measuring the behavior I care about directly—especially when protocol settings, defaults, and benchmarks can tell subtly different stories.
+I’ve been thinking about how AI can make iteration and large-scale code changes cheaper while leaving the important work—architecture, judgment, review, and ownership—with the people building the software.
 
-Last update: 2026-10-25
+Last update: 2026-10-26
