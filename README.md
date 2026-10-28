@@ -12,10 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been continuing to tinker with [picopass](https://github.com/donatj/picopass), my TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small USB keyboard that can type the current time, a stored test password, or a freshly generated TOTP code. I’ve been making its physical controls more practical, including a quick repeat press for sending Return, while keeping it squarely focused on disposable credentials and hands-on embedded experimentation rather than real account security.
+I’ve been keeping [PhpUserAgent](https://github.com/donatj/PhpUserAgent) moving as a deliberately small PHP user-agent parser: a lightweight option for applications that need practical browser, platform, and bot identification without turning that task into a giant dependency.
 
-I’ve also been pushing [MDDoc](https://github.com/donatj/mddoc) forward as a more capable PHP documentation generator. It now has stronger support for documenting enums and for finding classes through Composer autoloaders without loading them, which makes generated documentation fit more naturally into real-world PHP projects and their dependency trees.
+I’ve also been revisiting [mpo](https://github.com/donatj/mpo), my Go library and command-line tools for working with MPO stereoscopic photos. It can split MPO files into JPEG frames, build MPOs from images, and produce stereo or anaglyph output—useful for keeping older 3D-photo formats accessible.
 
-Most recently, I’ve been extending MDDoc’s parser so declarations nested inside conditionals, `try` blocks, functions, and methods do not quietly disappear from generated output. It’s the kind of edge-case work that helps documentation better reflect the code people actually maintain.
+I’m still enjoying projects that make specialized formats and everyday web signals easier to handle with compact, understandable tools. The common thread has been keeping the useful path straightforward: small libraries and command-line utilities that do one job clearly.
 
-Last update: 2026-10-27
+### What I have been thinking about
+
+I’ve been thinking about how much value there is in measuring behavior directly—especially around networking and performance—rather than assuming that a protocol or tool is doing what its name suggests. I’m also still fond of software experiments that preserve a little of computing’s history and personality while remaining genuinely useful.
+
+Last update: 2026-10-28
