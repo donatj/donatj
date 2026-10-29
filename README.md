@@ -12,14 +12,10 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been keeping [PhpUserAgent](https://github.com/donatj/PhpUserAgent) moving as a deliberately small PHP user-agent parser: a lightweight option for applications that need practical browser, platform, and bot identification without turning that task into a giant dependency.
+I’ve been spending time on small, practical PHP utilities: [ArrayFunctions](https://github.com/QuorumCollection/ArrayFunctions), my QuorumCollection library of extra `array_*` helpers, and [printf-parser](https://github.com/donatj/printf-parser), which turns PHP-compatible `printf` format strings into usable token streams. I’m keeping both tools focused on making common application work a little less repetitive.
 
-I’ve also been revisiting [mpo](https://github.com/donatj/mpo), my Go library and command-line tools for working with MPO stereoscopic photos. It can split MPO files into JPEG frames, build MPOs from images, and produce stereo or anaglyph output—useful for keeping older 3D-photo formats accessible.
+I’ve also been improving [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) so callers can use its color extraction without having to collect errors they do not need; I opened [a change to make that output optional](https://github.com/donatj/AlikeColorFinder/pull/38). Alongside that PHP work, I’ve continued tinkering with [Circle-Generator](https://github.com/donatj/Circle-Generator), my tool for planning circles in block-building games.
 
-I’m still enjoying projects that make specialized formats and everyday web signals easier to handle with compact, understandable tools. The common thread has been keeping the useful path straightforward: small libraries and command-line utilities that do one job clearly.
+I’ve kept a few other long-lived utilities moving as well: [StandardOtter](https://github.com/donatj/StandardOtter), a small macOS app for passing data to command-line tools through standard input; [SimpleCalendar](https://github.com/donatj/SimpleCalendar), a lightweight PHP calendar library; and [sqlread](https://github.com/donatj/sqlread), which lets me work with SQL dumps without first loading them into MySQL.
 
-### What I have been thinking about
-
-I’ve been thinking about how much value there is in measuring behavior directly—especially around networking and performance—rather than assuming that a protocol or tool is doing what its name suggests. I’m also still fond of software experiments that preserve a little of computing’s history and personality while remaining genuinely useful.
-
-Last update: 2026-10-28
+Last update: 2026-10-29
