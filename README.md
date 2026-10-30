@@ -12,10 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been spending time on small, practical PHP utilities: [ArrayFunctions](https://github.com/QuorumCollection/ArrayFunctions), my QuorumCollection library of extra `array_*` helpers, and [printf-parser](https://github.com/donatj/printf-parser), which turns PHP-compatible `printf` format strings into usable token streams. I’m keeping both tools focused on making common application work a little less repetitive.
+I’ve been exploring [picopass](https://github.com/donatj/picopass), a small toy project around physical TOTP-keyboard firmware. It has been a fun way to work at the intersection of tiny hardware, input devices, and everyday developer tooling.
 
-I’ve also been improving [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) so callers can use its color extraction without having to collect errors they do not need; I opened [a change to make that output optional](https://github.com/donatj/AlikeColorFinder/pull/38). Alongside that PHP work, I’ve continued tinkering with [Circle-Generator](https://github.com/donatj/Circle-Generator), my tool for planning circles in block-building games.
+I made the device interaction more intentional by simplifying its button handling and adding a same-button double press that sends Return instead of the usual input. I also adjusted the time button so its normal action stays focused on typing the time.
 
-I’ve kept a few other long-lived utilities moving as well: [StandardOtter](https://github.com/donatj/StandardOtter), a small macOS app for passing data to command-line tools through standard input; [SimpleCalendar](https://github.com/donatj/SimpleCalendar), a lightweight PHP calendar library; and [sqlread](https://github.com/donatj/sqlread), which lets me work with SQL dumps without first loading them into MySQL.
+I added an example device image so the project is easier to understand at a glance, while keeping it deliberately small and experimental.
 
-Last update: 2026-10-29
+### What I have been thinking about
+
+I’ve been thinking about how AI may change the experience of programming differently for people who enjoy different parts of the work—from quickly trying ideas to the careful craft of building software.
+
+Last update: 2026-10-30
