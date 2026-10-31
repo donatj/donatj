@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been exploring [picopass](https://github.com/donatj/picopass), a small toy project around physical TOTP-keyboard firmware. It has been a fun way to work at the intersection of tiny hardware, input devices, and everyday developer tooling.
+I’ve been deep in [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), extending its CSS color handling toward modern HDR color syntax. The goal is to keep the tool useful for catching confusingly similar colors as CSS gains a wider, more expressive color vocabulary.
 
-I made the device interaction more intentional by simplifying its button handling and adding a same-button double press that sends Return instead of the usual input. I also adjusted the time button so its normal action stays focused on typing the time.
+I’ve also been making [MDDoc](https://github.com/donatj/mddoc) a more complete PHP documentation generator. It can now better follow Composer autoloaders and document enums, while I continue improving its ability to find declarations that live inside nested language constructs instead of quietly leaving them out.
 
-I added an example device image so the project is easier to understand at a glance, while keeping it deliberately small and experimental.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my small TinyGo experiment for a Raspberry Pi Pico 2 W that acts as a physical keyboard for time, saved text, and disposable TOTP codes. I’ve been refining its button behavior and generally trying to make the little desk gadget more intentional without losing the fun of the experiment.
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI may change the experience of programming differently for people who enjoy different parts of the work—from quickly trying ideas to the careful craft of building software.
+I’ve been thinking about how much good code review still matters as tools make it cheaper to try ideas and reshape code: changes are most useful when people can still understand, evaluate, and confidently extend what lands.
 
-Last update: 2026-10-30
+Last update: 2026-10-31
