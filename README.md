@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been deep in [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), extending its CSS color handling toward modern HDR color syntax. The goal is to keep the tool useful for catching confusingly similar colors as CSS gains a wider, more expressive color vocabulary.
+I’ve been refining [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), my CSS color-similarity checker, so callers can use its extractor without having to collect error output they do not need. It is a small API improvement, but it makes the tool easier to embed where the useful result is the color analysis itself.
 
-I’ve also been making [MDDoc](https://github.com/donatj/mddoc) a more complete PHP documentation generator. It can now better follow Composer autoloaders and document enums, while I continue improving its ability to find declarations that live inside nested language constructs instead of quietly leaving them out.
+I’ve also expanded [MDDoc](https://github.com/donatj/MDDoc), my PHP-to-Markdown documentation generator, to document PHP enums—including backed and unbacked cases, values, methods, traits, and interfaces. I wrapped that up through [adding enum documentation support](https://github.com/donatj/mddoc/pull/53), so projects using modern PHP declarations do not quietly lose that part of their API documentation.
 
-I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my small TinyGo experiment for a Raspberry Pi Pico 2 W that acts as a physical keyboard for time, saved text, and disposable TOTP codes. I’ve been refining its button behavior and generally trying to make the little desk gadget more intentional without losing the fun of the experiment.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo Raspberry Pi Pico 2 W experiment that acts as a physical keyboard for timestamps, saved text, and disposable TOTP codes. I’m making its button interactions more deliberate while keeping it firmly in the category of a fun hardware experiment rather than a security product.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much good code review still matters as tools make it cheaper to try ideas and reshape code: changes are most useful when people can still understand, evaluate, and confidently extend what lands.
+I’ve been thinking about how much fun there still is in recreating familiar old interface ideas—and how those experiments can reveal which interaction patterns have lasted, and which ones now feel delightfully strange.
 
-Last update: 2026-10-31
+Last update: 2026-11-01
