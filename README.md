@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been refining [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), my CSS color-similarity checker, so callers can use its extractor without having to collect error output they do not need. It is a small API improvement, but it makes the tool easier to embed where the useful result is the color analysis itself.
+I’ve been polishing [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest release keeps literal `true`, `false`, and `null` defaults readable in generated signatures, while the preceding release teaches the parser to retain declarations nested inside conditionals, functions, methods, and `try` blocks—so valid API documentation does not quietly disappear. I did that work through [a change that walks nested syntax-tree declarations while preserving context](https://github.com/donatj/mddoc/pull/55).
 
-I’ve also expanded [MDDoc](https://github.com/donatj/MDDoc), my PHP-to-Markdown documentation generator, to document PHP enums—including backed and unbacked cases, values, methods, traits, and interfaces. I wrapped that up through [adding enum documentation support](https://github.com/donatj/mddoc/pull/53), so projects using modern PHP declarations do not quietly lose that part of their API documentation.
+I also broadened the tool’s usefulness for current PHP projects: it can now document enums and their cases, find project and dependency classes through Composer without loading them, and wrap long signatures into more legible output. The aim is to make generated docs feel like dependable project documentation rather than a lossy summary of source code.
 
-I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), a TinyGo Raspberry Pi Pico 2 W experiment that acts as a physical keyboard for timestamps, saved text, and disposable TOTP codes. I’m making its button interactions more deliberate while keeping it firmly in the category of a fun hardware experiment rather than a security product.
+The common thread has been making automatic documentation more faithful to the code people actually write. I’m especially happy to be closing the gap between expressive PHP features and the documentation they ought to produce, while keeping the generated Markdown clean enough to use directly in a project or site.
 
 ### What I have been thinking about
 
-I’ve been thinking about how much fun there still is in recreating familiar old interface ideas—and how those experiments can reveal which interaction patterns have lasted, and which ones now feel delightfully strange.
+I’ve been feeling nostalgic for the era of playful desktop themes and interface simulations—software that invited people to imitate, remix, and tinker with the computers around them.
 
-Last update: 2026-11-01
+Last update: 2026-11-02
