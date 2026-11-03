@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been polishing [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. The newest release keeps literal `true`, `false`, and `null` defaults readable in generated signatures, while the preceding release teaches the parser to retain declarations nested inside conditionals, functions, methods, and `try` blocks—so valid API documentation does not quietly disappear. I did that work through [a change that walks nested syntax-tree declarations while preserving context](https://github.com/donatj/mddoc/pull/55).
+I’ve been focused on making generated PHP API docs easier to navigate in [MDDoc](https://github.com/donatj/mddoc). My newest work is a draft [table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56), with durable anchors for documented classes, interfaces, and methods so larger generated API pages are less of a scavenger hunt.
 
-I also broadened the tool’s usefulness for current PHP projects: it can now document enums and their cases, find project and dependency classes through Composer without loading them, and wrap long signatures into more legible output. The aim is to make generated docs feel like dependable project documentation rather than a lossy summary of source code.
+I also shipped support for documenting declarations nested inside other statements, and earlier expanded the generator to cover PHP enums, Composer-based class lookup without loading project classes, and more readable wrapping for long signatures. The goal has been to make generated documentation feel like a useful part of everyday development rather than an artifact that needs cleanup.
 
-The common thread has been making automatic documentation more faithful to the code people actually write. I’m especially happy to be closing the gap between expressive PHP features and the documentation they ought to produce, while keeping the generated Markdown clean enough to use directly in a project or site.
+Alongside those features, I’ve been tightening the project’s foundation with fixtures that keep complete documentation examples together and make output changes easier to review. It has been a nice stretch of work centered on making PHP documentation both more complete and more practical to use.
 
 ### What I have been thinking about
 
-I’ve been feeling nostalgic for the era of playful desktop themes and interface simulations—software that invited people to imitate, remix, and tinker with the computers around them.
+I’ve been thinking about how old interface ideas keep finding new life: familiar desktop conventions and tangible controls can still be useful inspiration when they make software feel more direct and understandable.
 
-Last update: 2026-11-02
+Last update: 2026-11-03
