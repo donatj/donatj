@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been focused on making generated PHP API docs easier to navigate in [MDDoc](https://github.com/donatj/mddoc). My newest work is a draft [table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56), with durable anchors for documented classes, interfaces, and methods so larger generated API pages are less of a scavenger hunt.
+Most recently, I’ve been expanding [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, so it can [document declarations nested inside statements](https://github.com/donatj/mddoc/pull/55). That keeps valid functions, classes, enums, interfaces, and traits from quietly disappearing when they live below the top level of a source file.
 
-I also shipped support for documenting declarations nested inside other statements, and earlier expanded the generator to cover PHP enums, Composer-based class lookup without loading project classes, and more readable wrapping for long signatures. The goal has been to make generated documentation feel like a useful part of everyday development rather than an artifact that needs cleanup.
+I’ve also been working on [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), making extraction-error reporting optional for callers that only need its near-duplicate CSS color analysis. That should make the library simpler to embed in focused tools and CI checks without requiring consumers to manage error-output storage they do not need.
 
-Alongside those features, I’ve been tightening the project’s foundation with fixtures that keep complete documentation examples together and make output changes easier to review. It has been a nice stretch of work centered on making PHP documentation both more complete and more practical to use.
+Across both, I’ve been keeping the focus on small developer tools that make everyday workflows more dependable: documentation should reflect the code people actually write, and analysis tools should make the common path straightforward.
 
 ### What I have been thinking about
 
-I’ve been thinking about how old interface ideas keep finding new life: familiar desktop conventions and tangible controls can still be useful inspiration when they make software feel more direct and understandable.
+I’ve been thinking about the difference between experimenting with new tools and producing useful work with them. The interesting part is not collecting ever more elaborate toys—it is using technology to make something clear, practical, and genuinely finished.
 
-Last update: 2026-11-03
+Last update: 2026-11-04
