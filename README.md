@@ -12,10 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been continuing to build out [mddoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. Most recently, I’ve been working on [recognizing conventional `.dist.xml` configuration files](https://github.com/donatj/mddoc/pull/58), so projects can keep distributable example configuration alongside their local setup without extra ceremony.
+I’ve been extending [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) toward a broader range of modern CSS color syntax, so it can keep spotting confusingly similar colors as stylesheets move beyond the older, simpler color formats. It remains a small CI-friendly tool for catching visual drift before it ships. ([github.com](https://github.com/donatj/AlikeColorFinder))
 
-I also shipped a pair of releases that make generated API documentation more complete and accurate: nested declarations are now included rather than silently skipped, and PHP’s `true`, `false`, and `null` literals render correctly in generated signatures instead of looking like namespaced identifiers.
+I’ve also been making [MDDoc](https://github.com/donatj/mddoc) a more capable PHP documentation generator, including better Composer-autoloader support for finding project and dependency classes without executing them. I’m continuing to make generated documentation more useful for projects that want their code and written docs to stay in sync. ([github.com](https://github.com/donatj/mddoc))
 
-I’ve also been experimenting with an opt-in [table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56). It adds stable anchors and links for documented classes, interfaces, methods, and their signatures, making larger generated reference pages much easier to scan and navigate.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo Pico 2 W experiment that becomes a little physical keyboard for time, saved text, and disposable TOTP codes. I’ve been refining the button interaction—including a quick repeat press for Return—while keeping it firmly a fun hardware experiment rather than a real authenticator. ([github.com](https://github.com/donatj/picopass))
 
-Last update: 2026-11-06
+### What I have been thinking about
+
+I’ve been thinking about how old interface ideas have a way of coming back around: familiar desktop conventions and playful recreations can still be surprisingly compelling when they make technology feel more tangible.
+
+Last update: 2026-11-07
