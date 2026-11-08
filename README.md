@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been extending [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) toward a broader range of modern CSS color syntax, so it can keep spotting confusingly similar colors as stylesheets move beyond the older, simpler color formats. It remains a small CI-friendly tool for catching visual drift before it ships. ([github.com](https://github.com/donatj/AlikeColorFinder))
+I’ve been putting [MDDoc](https://github.com/donatj/MDDoc) to work in [Corpus Coding Standard](https://github.com/CorpusPHP/CodingStandard), moving its generated documentation onto Composer autoloading and checking that the README stays in sync with the code. It’s a nice real-world proving ground for making PHP project docs more reliable and easier to maintain.
 
-I’ve also been making [MDDoc](https://github.com/donatj/mddoc) a more capable PHP documentation generator, including better Composer-autoloader support for finding project and dependency classes without executing them. I’m continuing to make generated documentation more useful for projects that want their code and written docs to stay in sync. ([github.com](https://github.com/donatj/mddoc))
+I’ve also kept expanding MDDoc itself: it now understands enums, can follow Composer autoloaders, and does a better job finding declarations inside nested statements and across files. I’ve been tightening up the resolver work behind [preserving conditional declarations and language literals in generated documentation](https://github.com/donatj/MDDoc/pull/57), so documentation can reflect more of the code that real PHP projects actually contain.
 
-I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo Pico 2 W experiment that becomes a little physical keyboard for time, saved text, and disposable TOTP codes. I’ve been refining the button interaction—including a quick repeat press for Return—while keeping it firmly a fun hardware experiment rather than a real authenticator. ([github.com](https://github.com/donatj/picopass))
+Alongside that, I’ve been using [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) as another consumer of MDDoc, restructuring its documentation configuration around reusable sections and generated dependency/install details. The broader theme has been making small developer tools more capable without making their day-to-day use more complicated.
 
 ### What I have been thinking about
 
-I’ve been thinking about how old interface ideas have a way of coming back around: familiar desktop conventions and playful recreations can still be surprisingly compelling when they make technology feel more tangible.
+I’ve been appreciating how much atmosphere comes from visual style: the softer, dreamlike lighting in older games can make a space feel especially warm and inviting.
 
-Last update: 2026-11-07
+Last update: 2026-11-08
