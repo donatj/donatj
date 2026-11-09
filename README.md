@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been putting [MDDoc](https://github.com/donatj/MDDoc) to work in [Corpus Coding Standard](https://github.com/CorpusPHP/CodingStandard), moving its generated documentation onto Composer autoloading and checking that the README stays in sync with the code. It’s a nice real-world proving ground for making PHP project docs more reliable and easier to maintain.
+I’ve been making [MDDoc](https://github.com/donatj/mddoc) more useful for larger generated PHP documentation sets. I added an opt-in [table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56), with stable explicit anchors for classes, interfaces, and methods, so readers can navigate generated API pages without hunting through a long list.
 
-I’ve also kept expanding MDDoc itself: it now understands enums, can follow Composer autoloaders, and does a better job finding declarations inside nested statements and across files. I’ve been tightening up the resolver work behind [preserving conditional declarations and language literals in generated documentation](https://github.com/donatj/MDDoc/pull/57), so documentation can reflect more of the code that real PHP projects actually contain.
+I’ve also been improving MDDoc’s configuration discovery so projects can use the common `.dist.xml` naming convention. That keeps the generator easier to drop into real projects while making its file-discovery behavior more isolated and testable.
 
-Alongside that, I’ve been using [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder) as another consumer of MDDoc, restructuring its documentation configuration around reusable sections and generated dependency/install details. The broader theme has been making small developer tools more capable without making their day-to-day use more complicated.
+I’ve kept tinkering with [picopass](https://github.com/donatj/picopass), my TinyGo experiment for turning a Raspberry Pi Pico 2 W into a small physical keyboard for time, stored text, and disposable TOTP codes, and I’ve continued extending [AlikeColorFinder](https://github.com/donatj/AlikeColorFinder), the CSS-focused CLI for spotting nearly identical colors before they turn into visual drift.
 
 ### What I have been thinking about
 
-I’ve been appreciating how much atmosphere comes from visual style: the softer, dreamlike lighting in older games can make a space feel especially warm and inviting.
+I’ve been thinking about how AI-heavy development changes the feel of programming work, and whether that makes technical leadership worth revisiting from a more experienced perspective.
 
-Last update: 2026-11-08
+Last update: 2026-11-09
