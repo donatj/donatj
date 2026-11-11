@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been extending [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, with [a table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56).
+I’ve been working on [Exporter](https://github.com/QuorumCollection/Exporter), the Quorum Collection’s streamed spreadsheet exporter. I’ve added clearer CSV options for multi-sheet exports and byte-order marks, and I’m working on [support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41). ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
 
-That work gives generated API pages stable, explicit links to documented classes, interfaces, methods, and function signatures, so readers can get around large reference docs without scanning an entire class list.
+I’ve also made empty sheets a little lighter: they now wait until the first row is added before opening a temporary stream. ([github.com](https://github.com/QuorumCollection/Exporter/pull/40))
 
-I’m continuing to focus on making generated documentation more useful as a working artifact: something projects can build from source while still being clear and easy to navigate for the people who need it.
+Over in [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, I’ve expanded discovery of declarations nested inside statements. I’m also working on an optional [table of contents for generated API docs](https://github.com/donatj/mddoc/pull/56), with stable links to classes, interfaces, and methods. ([github.com](https://github.com/donatj/mddoc/pull/55))
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI is changing the day-to-day shape of software work, while the satisfying parts remain the same for me: building useful things, taking responsibility for outcomes, and helping teams make thoughtful decisions together.
+I’ve been reflecting on the different rewards of building software and leading people, and on how AI is changing the experience of development. I’m curious about giving management another try with the benefit of more experience.
 
 Last update: 2026-11-11
