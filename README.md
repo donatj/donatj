@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been extending [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, with [a table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56).
+I’ve been expanding [force-color.org](https://github.com/donatj/force-color.org), adding tools and a color library to its compatibility lists so developers can see where forced terminal color is supported. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-That work gives generated API pages stable, explicit links to documented classes, interfaces, methods, and function signatures, so readers can get around large reference docs without scanning an entire class list.
+I’ve also been working on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. I have a draft change for an [optional table of contents with stable anchors](https://github.com/donatj/mddoc/pull/56), making longer API pages easier to navigate. ([github.com](https://github.com/donatj/mddoc/pull/56))
 
-I’m continuing to focus on making generated documentation more useful as a working artifact: something projects can build from source while still being clear and easy to navigate for the people who need it.
+I released an update to the generator that finds declarations inside nested statements, helping its documentation reflect more of the PHP code it encounters. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI is changing the day-to-day shape of software work, while the satisfying parts remain the same for me: building useful things, taking responsibility for outcomes, and helping teams make thoughtful decisions together.
+I’ve been thinking about how AI-driven workflows are changing the experience of software development, and how the balance between hands-on building and management can shift over a career.
 
 Last update: 2026-11-11
