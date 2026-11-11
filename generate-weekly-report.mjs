@@ -19,6 +19,7 @@ const safeAdditionalContext = additionalContext.replaceAll("<", "&lt;");
 
 const response = await new OpenAI().responses.create({
 	model: process.env.OPENAI_MODEL ?? "gpt-6-luna",
+	reasoning: { effort: "high" },
 	tools: [{ type: "web_search" }],
 	tool_choice: "required",
 	input: `First, identify every public GitHub organization associated with ${username}. Then research what ${username} has been up to in the past 30 days across the personal account and each of those organizations. Check every identified organization; do not limit research to personal repositories. Review the full 30-day window before drafting; do not stop after finding one or two relevant updates. Within that window, recency is the primary editorial priority: lead with the newest meaningful work and favor it over older changes. Use older activity only for useful context or when recent activity is insufficient; do not let older, more extensively documented work crowd out newer significant updates.
