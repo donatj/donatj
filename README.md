@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been putting my recent energy into [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, with a focus on making generated reference material easier to navigate and projects easier to configure.
+I’ve been extending [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, with [a table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56).
 
-I added an opt-in [table of contents for recursively generated documentation](https://github.com/donatj/mddoc/pull/56), giving API pages durable explicit anchors and a readable route through documented classes, interfaces, and methods.
+That work gives generated API pages stable, explicit links to documented classes, interfaces, methods, and function signatures, so readers can get around large reference docs without scanning an entire class list.
 
-I’ve also been [teaching MDDoc to find `.dist.xml` configuration files](https://github.com/donatj/mddoc/pull/58) in a more conventional order, so reusable project defaults work smoothly without getting in the way of local configuration.
+I’m continuing to focus on making generated documentation more useful as a working artifact: something projects can build from source while still being clear and easy to navigate for the people who need it.
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI can make experimentation and large-scale code changes cheaper, while good architecture and careful review still matter just as much: the valuable part is not merely producing a change, but leaving behind something people can understand and confidently extend.
+I’ve been thinking about how AI is changing the day-to-day shape of software work, while the satisfying parts remain the same for me: building useful things, taking responsibility for outcomes, and helping teams make thoughtful decisions together.
 
-Last update: 2026-11-10
+Last update: 2026-11-11
