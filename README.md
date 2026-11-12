@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been expanding [force-color.org](https://github.com/donatj/force-color.org), adding tools and a color library to its compatibility lists so developers can see where forced terminal color is supported. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve been working on [Quorum Exporter](https://github.com/QuorumCollection/Exporter), a streamed spreadsheet export library. I’m [adding support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), so data in encodings such as Latin-1 and UTF-16 can be normalized before export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
 
-I’ve also been working on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. I have a draft change for an [optional table of contents with stable anchors](https://github.com/donatj/mddoc/pull/56), making longer API pages easier to navigate. ([github.com](https://github.com/donatj/mddoc/pull/56))
+I’ve also added clearer CSV options for handling multiple sheets and byte order marks. Empty sheets now wait until their first row before opening a temporary stream. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
 
-I released an update to the generator that finds declarations inside nested statements, helping its documentation reflect more of the PHP code it encounters. ([github.com](https://github.com/donatj/mddoc/releases))
+Over in [MDDoc](https://github.com/donatj/mddoc), my PHP documentation generator, I’m working on an [optional table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56). It gives readers direct links to classes, interfaces, and methods instead of making them scan the whole page. ([github.com](https://github.com/donatj/mddoc/pull/56))
 
 ### What I have been thinking about
 
-I’ve been thinking about how AI-driven workflows are changing the experience of software development, and how the balance between hands-on building and management can shift over a career.
+I’ve been reflecting on how AI is changing the experience of software development, and on how much I enjoy spending time building things.
 
-Last update: 2026-11-11
+Last update: 2026-11-12
