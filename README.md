@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been working on [Quorum Exporter](https://github.com/QuorumCollection/Exporter), a streamed spreadsheet export library. I’m [adding support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), so data in encodings such as Latin-1 and UTF-16 can be normalized before export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
+I’ve been expanding [force-color.org](https://github.com/donatj/force-color.org) with more entries in its software and library compatibility lists, making it easier to see where forced terminal color is supported. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I’ve also added clearer CSV options for handling multiple sheets and byte order marks. Empty sheets now wait until their first row before opening a temporary stream. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
+I also released [HQX Go](https://github.com/donatj/hqxgo), a Go port of the HQ4x pixel-art scaling filter, and added a command-line image converter alongside the library. ([github.com](https://github.com/donatj/hqxgo/commits))
 
-Over in [MDDoc](https://github.com/donatj/mddoc), my PHP documentation generator, I’m working on an [optional table of contents for recursive documentation](https://github.com/donatj/mddoc/pull/56). It gives readers direct links to classes, interfaces, and methods instead of making them scan the whole page. ([github.com](https://github.com/donatj/mddoc/pull/56))
+For [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, I released support for declarations inside nested statements. I’m also working on an [optional table of contents with stable anchors](https://github.com/donatj/mddoc/pull/56) to make longer API pages easier to navigate. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been reflecting on how AI is changing the experience of software development, and on how much I enjoy spending time building things.
+I’ve been reflecting on how AI-driven workflows are changing the experience of building software, and how the balance between hands-on development and management can shift over a career.
 
-Last update: 2026-11-12
+Last update: 2026-11-13
