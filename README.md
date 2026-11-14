@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been expanding [force-color.org](https://github.com/donatj/force-color.org) with more entries in its software and library compatibility lists, making it easier to see where forced terminal color is supported. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve been expanding [FORCE_COLOR](https://github.com/donatj/force-color.org), an informal standard for keeping command-line output colorful even when it’s piped elsewhere. I added more software and libraries to its compatibility lists. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I also released [HQX Go](https://github.com/donatj/hqxgo), a Go port of the HQ4x pixel-art scaling filter, and added a command-line image converter alongside the library. ([github.com](https://github.com/donatj/hqxgo/commits))
+I also revisited [hqxgo](https://github.com/donatj/hqxgo), my Go implementation of the HQ4x pixel-art scaling filter. I released it and added a command-line image converter that enlarges images fourfold. ([github.com](https://github.com/donatj/hqxgo/commits))
 
-For [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, I released support for declarations inside nested statements. I’m also working on an [optional table of contents with stable anchors](https://github.com/donatj/mddoc/pull/56) to make longer API pages easier to navigate. ([github.com](https://github.com/donatj/mddoc/releases))
+On the PHP side, I released an update to [MDDoc](https://github.com/donatj/mddoc) that can [document declarations inside nested statements](https://github.com/donatj/mddoc/pull/55), helping its generated documentation cover more of a project’s code. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been reflecting on how AI-driven workflows are changing the experience of building software, and how the balance between hands-on development and management can shift over a career.
+I’ve been reflecting on how AI is changing day-to-day programming, and on the balance between building software myself and helping teams do their best work.
 
-Last update: 2026-11-13
+Last update: 2026-11-14
