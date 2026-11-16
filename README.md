@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been expanding [force-color.org](https://github.com/donatj/force-color.org), adding more tools and libraries to its compatibility lists so developers can see where forced terminal color is supported. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve been working on [Exporter](https://github.com/QuorumCollection/Exporter), the Quorum Collection’s streaming spreadsheet exporter. My current work [adds support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), converting it before storage so more kinds of data can make it through an export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
 
-I’m also working on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. I have a draft change to [add an optional table of contents with stable anchors](https://github.com/donatj/mddoc/pull/56), making longer API pages easier to navigate. ([github.com](https://github.com/donatj/mddoc/pull/56))
+I also released [hqxgo](https://github.com/donatj/hqxgo), a Go port of the HQ4x pixel-art scaling filter. It offers both a library and a command-line tool for enlarging images fourfold. ([github.com](https://github.com/donatj/hqxgo/releases))
 
-I also released an update that finds declarations inside nested statements, so the generated documentation can reflect more of the PHP code it encounters. ([github.com](https://github.com/donatj/mddoc/releases))
+And I’ve continued improving [MDDoc](https://github.com/donatj/mddoc), my PHP documentation generator. It can now find declarations nested inside statements, so valid functions and types are represented in the generated docs. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about cuckoo filters as an alternative to Bloom filters, and about how software careers can include different kinds of work as our interests and experience change.
+I’ve been thinking about probabilistic data structures, particularly where cuckoo filters make a useful alternative to Bloom filters. I’ve also been reflecting on the different skills and rewards involved in building software and managing a team.
 
-Last update: 2026-11-15
+Last update: 2026-11-16
