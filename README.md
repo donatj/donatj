@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been working on [Exporter](https://github.com/QuorumCollection/Exporter), the Quorum Collection’s streaming spreadsheet exporter. My current work [adds support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), converting it before storage so more kinds of data can make it through an export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
+I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator): I’m [prototyping rules for Caddy](https://github.com/donatj/RewriteRule-Generator/pull/45) and exploring selectable redirect status codes, so generated redirects can be temporary or preserve the request method. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
 
-I also released [hqxgo](https://github.com/donatj/hqxgo), a Go port of the HQ4x pixel-art scaling filter. It offers both a library and a command-line tool for enlarging images fourfold. ([github.com](https://github.com/donatj/hqxgo/releases))
+I’ve also expanded the compatibility lists on [force-color.org](https://github.com/donatj/force-color.org) with more tools and libraries that support forced terminal color. Over in [PhpUserAgent](https://github.com/donatj/PhpUserAgent), I clarified why recent Konqueror versions can’t always be identified from their default user-agent strings. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-And I’ve continued improving [MDDoc](https://github.com/donatj/mddoc), my PHP documentation generator. It can now find declarations nested inside statements, so valid functions and types are represented in the generated docs. ([github.com](https://github.com/donatj/mddoc/releases))
+For the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I added clearer CSV strategy and byte-order-mark options. I’m also [working on input encoding and engine configuration](https://github.com/QuorumCollection/Exporter/pull/41), including converting sheet data to UTF-8 before export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
 
 ### What I have been thinking about
 
-I’ve been thinking about probabilistic data structures, particularly where cuckoo filters make a useful alternative to Bloom filters. I’ve also been reflecting on the different skills and rewards involved in building software and managing a team.
+I’ve been thinking about probabilistic filters, especially cuckoo filters: they’re a neat way to make membership checks more memory-efficient when occasional false positives are acceptable. ([donatstudios.com](https://donatstudios.com/))
 
-Last update: 2026-11-16
+Last update: 2026-11-17
