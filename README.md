@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator): I’m [prototyping rules for Caddy](https://github.com/donatj/RewriteRule-Generator/pull/45) and exploring selectable redirect status codes, so generated redirects can be temporary or preserve the request method. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
+I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rule generation and selectable redirect status codes. The goal is to make the generated redirects useful for more server setups and behaviors. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
 
-I’ve also expanded the compatibility lists on [force-color.org](https://github.com/donatj/force-color.org) with more tools and libraries that support forced terminal color. Over in [PhpUserAgent](https://github.com/donatj/PhpUserAgent), I clarified why recent Konqueror versions can’t always be identified from their default user-agent strings. ([github.com](https://github.com/donatj/force-color.org/commits))
+For the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on configurable spreadsheet export engines and converting input text to UTF-8 before export. I’ve also expanded the compatibility lists on [force-color.org](https://github.com/donatj/force-color.org), helping people find tools and libraries that support forced terminal color. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
 
-For the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I added clearer CSV strategy and byte-order-mark options. I’m also [working on input encoding and engine configuration](https://github.com/QuorumCollection/Exporter/pull/41), including converting sheet data to UTF-8 before export. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
+I released [hqxgo](https://github.com/donatj/hqxgo), a Go port that enlarges pixel art with the HQ4x filter. And in [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, I added support for finding declarations inside nested statements. ([github.com](https://github.com/donatj/hqxgo/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about probabilistic filters, especially cuckoo filters: they’re a neat way to make membership checks more memory-efficient when occasional false positives are acceptable. ([donatstudios.com](https://donatstudios.com/))
+I’ve been thinking about how much work goes into giving a small command-line tool a graphical interface—and how much simpler that process could be. I’ve also been revisiting cuckoo filters as a handy option for space-efficient membership checks.
 
-Last update: 2026-11-17
+Last update: 2026-11-18
