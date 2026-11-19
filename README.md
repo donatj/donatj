@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rule generation and selectable redirect status codes. The goal is to make the generated redirects useful for more server setups and behaviors. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
+I clarified a browser-detection limitation in [PhpUserAgent](https://github.com/donatj/PhpUserAgent): recent Konqueror versions can use a user-agent string that doesn’t identify the browser, so the parser can’t reliably distinguish them. ([github.com](https://github.com/donatj/PhpUserAgent/pull/122))
 
-For the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on configurable spreadsheet export engines and converting input text to UTF-8 before export. I’ve also expanded the compatibility lists on [force-color.org](https://github.com/donatj/force-color.org), helping people find tools and libraries that support forced terminal color. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
+I’ve also expanded the listings on [FORCE_COLOR](https://github.com/donatj/force-color.org), adding more command-line tools and color libraries. The site helps people find software that can keep terminal output colorful even when it’s piped elsewhere. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I released [hqxgo](https://github.com/donatj/hqxgo), a Go port that enlarges pixel art with the HQ4x filter. And in [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, I added support for finding declarations inside nested statements. ([github.com](https://github.com/donatj/hqxgo/releases))
+Over in [MDDoc](https://github.com/donatj/mddoc), I released an improvement that finds PHP declarations inside nested statements, functions, and methods, so they can make it into generated documentation. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about how much work goes into giving a small command-line tool a graphical interface—and how much simpler that process could be. I’ve also been revisiting cuckoo filters as a handy option for space-efficient membership checks.
+I’ve been thinking about the human intuition good QA brings to a product: not just whether something works, but whether it feels clear and sensible to use. I’ve also been wondering how we could make small graphical interfaces simpler to build.
 
-Last update: 2026-11-18
+Last update: 2026-11-19
