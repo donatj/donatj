@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I clarified a browser-detection limitation in [PhpUserAgent](https://github.com/donatj/PhpUserAgent): recent Konqueror versions can use a user-agent string that doesn’t identify the browser, so the parser can’t reliably distinguish them. ([github.com](https://github.com/donatj/PhpUserAgent/pull/122))
+I’ve been expanding [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of compatible tools and libraries, making it easier to find software that supports forced terminal colors. I also added per-value colors to [TickerGraph](https://github.com/donatj/TickerGraph), along with ways to read the current and most recent values from a scrolling graph. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I’ve also expanded the listings on [FORCE_COLOR](https://github.com/donatj/force-color.org), adding more command-line tools and color libraries. The site helps people find software that can keep terminal output colorful even when it’s piped elsewhere. ([github.com](https://github.com/donatj/force-color.org/commits))
+I revisited [hqxgo](https://github.com/donatj/hqxgo), my Go image-scaling experiment, and gave it a command-line image converter. It uses the HQ4x filter to enlarge images fourfold. ([github.com](https://github.com/donatj/hqxgo/commits))
 
-Over in [MDDoc](https://github.com/donatj/mddoc), I released an improvement that finds PHP declarations inside nested statements, functions, and methods, so they can make it into generated documentation. ([github.com](https://github.com/donatj/mddoc/releases))
+I’ve also been working on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. Its latest feature release can find declarations inside nested statements, so more of a project’s code can make it into the generated reference. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition good QA brings to a product: not just whether something works, but whether it feels clear and sensible to use. I’ve also been wondering how we could make small graphical interfaces simpler to build.
+I’ve been thinking about the human intuition that good QA brings: not just checking whether software works, but noticing when an experience feels confusing. I’ve also been wondering how building small graphical interfaces could become simpler.
 
-Last update: 2026-11-19
+Last update: 2026-11-20
