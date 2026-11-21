@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been expanding [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of compatible tools and libraries, making it easier to find software that supports forced terminal colors. I also added per-value colors to [TickerGraph](https://github.com/donatj/TickerGraph), along with ways to read the current and most recent values from a scrolling graph. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rules and selectable redirect status codes. I also clarified a limitation in [PhpUserAgent](https://github.com/donatj/PhpUserAgent): some browsers’ default user-agent strings don’t identify them distinctly. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
 
-I revisited [hqxgo](https://github.com/donatj/hqxgo), my Go image-scaling experiment, and gave it a command-line image converter. It uses the HQ4x filter to enlarge images fourfold. ([github.com](https://github.com/donatj/hqxgo/commits))
+I’ve expanded [force-color.org](https://github.com/donatj/force-color.org)’s lists of tools and libraries that support forced terminal color. In the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on clearer CSV options and converting sheet input to UTF-8 before export. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I’ve also been working on [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator. Its latest feature release can find declarations inside nested statements, so more of a project’s code can make it into the generated reference. ([github.com](https://github.com/donatj/mddoc/releases))
+I also released an improvement to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, so it can find declarations inside nested statements and include more of a codebase in its output. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition that good QA brings: not just checking whether software works, but noticing when an experience feels confusing. I’ve also been wondering how building small graphical interfaces could become simpler.
+I’ve been thinking about the human intuition that makes QA valuable: noticing not just whether software works, but whether it feels clear and sensible to use. I’ve also been wondering how we can make small graphical interfaces simpler to build.
 
-Last update: 2026-11-20
+Last update: 2026-11-21
