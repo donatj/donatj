@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rules and selectable redirect status codes. I also clarified a limitation in [PhpUserAgent](https://github.com/donatj/PhpUserAgent): some browsers’ default user-agent strings don’t identify them distinctly. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
+I’ve updated [HootaNym](https://github.com/donatj/hootanym), my Hacker News browser extension, with emoji markers for user notes and a refreshed note dialog. I also [polished the controls](https://github.com/donatj/Circle-Generator/pull/127) in [Circle Generator](https://github.com/donatj/Circle-Generator), with clearer grouping, responsive layouts, and keyboard-focus states. ([github.com](https://github.com/donatj/HootaNym/commits))
 
-I’ve expanded [force-color.org](https://github.com/donatj/force-color.org)’s lists of tools and libraries that support forced terminal color. In the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on clearer CSV options and converting sheet input to UTF-8 before export. ([github.com](https://github.com/donatj/force-color.org/commits))
+In [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), I’m prototyping [Caddy rule generation](https://github.com/donatj/RewriteRule-Generator/pull/45) and selectable redirect status codes, so the tool can support more server setups and redirect behavior. ([github.com](https://github.com/donatj/RewriteRule-Generator/pulls))
 
-I also released an improvement to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, so it can find declarations inside nested statements and include more of a codebase in its output. ([github.com](https://github.com/donatj/mddoc/releases))
+For the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I added clearer CSV strategy and byte-order-mark options, and I’m working on input encoding and engine setup. I also expanded [force-color.org](https://github.com/donatj/force-color.org)’s compatibility lists to help developers see which tools and libraries support forced terminal color. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition that makes QA valuable: noticing not just whether software works, but whether it feels clear and sensible to use. I’ve also been wondering how we can make small graphical interfaces simpler to build.
+I’ve been thinking about the human side of quality assurance: understanding whether software feels right to use takes more than checking that it meets a ticket. I’ve also been pondering why adding a simple graphical interface to a small command-line tool can take so much work.
 
-Last update: 2026-11-21
+Last update: 2026-11-22
