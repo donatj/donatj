@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve updated [HootaNym](https://github.com/donatj/hootanym), my Hacker News browser extension, with emoji markers for user notes and a refreshed note dialog. I also [polished the controls](https://github.com/donatj/Circle-Generator/pull/127) in [Circle Generator](https://github.com/donatj/Circle-Generator), with clearer grouping, responsive layouts, and keyboard-focus states. ([github.com](https://github.com/donatj/HootaNym/commits))
+I’ve released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. It adds more emoji markers and gives the note dialog a more flexible layout. ([github.com](https://github.com/donatj/hootanym/pull/78))
 
-In [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), I’m prototyping [Caddy rule generation](https://github.com/donatj/RewriteRule-Generator/pull/45) and selectable redirect status codes, so the tool can support more server setups and redirect behavior. ([github.com](https://github.com/donatj/RewriteRule-Generator/pulls))
+I’ve also been expanding [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of tools and libraries that support forced terminal colors. Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m [working on support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41) so spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-For the Quorum Collection’s streamed spreadsheet [Exporter](https://github.com/QuorumCollection/Exporter), I added clearer CSV strategy and byte-order-mark options, and I’m working on input encoding and engine setup. I also expanded [force-color.org](https://github.com/donatj/force-color.org)’s compatibility lists to help developers see which tools and libraries support forced terminal color. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
+I released an improvement to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, that finds declarations inside nested statements. That helps generated documentation include more of the code it encounters. ([github.com](https://github.com/donatj/mddoc/releases))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human side of quality assurance: understanding whether software feels right to use takes more than checking that it meets a ticket. I’ve also been pondering why adding a simple graphical interface to a small command-line tool can take so much work.
+I’ve been thinking about the human intuition that good QA brings to software—not just whether a feature works, but whether it makes sense to the person using it. I’ve also been wondering how we could make small graphical interfaces simpler to build.
 
-Last update: 2026-11-22
+Last update: 2026-11-23
