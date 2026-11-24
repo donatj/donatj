@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I’ve released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. It adds more emoji markers and gives the note dialog a more flexible layout. ([github.com](https://github.com/donatj/hootanym/pull/78))
+I released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. I added more emoji markers and refreshed the note dialog. ([github.com](https://github.com/donatj/HootaNym/commits))
 
-I’ve also been expanding [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of tools and libraries that support forced terminal colors. Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m [working on support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41) so spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve also expanded [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of software and libraries that support forced terminal colors, making the convention easier to find and use. ([github.com](https://github.com/donatj/force-color.org/commits))
 
-I released an improvement to [MDDoc](https://github.com/donatj/mddoc), my PHP-to-Markdown documentation generator, that finds declarations inside nested statements. That helps generated documentation include more of the code it encounters. ([github.com](https://github.com/donatj/mddoc/releases))
+Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’ve added clearer CSV strategy and byte-order-mark options. I’m also working on [support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), so spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition that good QA brings to software—not just whether a feature works, but whether it makes sense to the person using it. I’ve also been wondering how we could make small graphical interfaces simpler to build.
+I’ve been thinking about the human intuition good QA brings to software: not just whether something works, but whether it makes sense to the person using it. I’ve also been wondering how we could make small graphical interfaces simpler to build.
 
-Last update: 2026-11-23
+Last update: 2026-11-24
