@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. I added more emoji markers and refreshed the note dialog. ([github.com](https://github.com/donatj/HootaNym/commits))
+I released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. It has more character emoji markers and a more flexible note dialog. ([github.com](https://github.com/donatj/hootanym/commits))
 
-I’ve also expanded [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of software and libraries that support forced terminal colors, making the convention easier to find and use. ([github.com](https://github.com/donatj/force-color.org/commits))
+I’ve also been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rules and selectable redirect status codes. And I’ve expanded [force-color.org](https://github.com/donatj/force-color.org)’s lists of tools and libraries that support forced terminal color. ([github.com](https://github.com/donatj/RewriteRule-Generator/pulls))
 
-Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’ve added clearer CSV strategy and byte-order-mark options. I’m also working on [support for non-UTF-8 input](https://github.com/QuorumCollection/Exporter/pull/41), so spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/QuorumCollection/Exporter/pull/42))
+Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on support for non-UTF-8 input, converting sheet data to UTF-8 so its streamed spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition good QA brings to software: not just whether something works, but whether it makes sense to the person using it. I’ve also been wondering how we could make small graphical interfaces simpler to build.
+I’ve been thinking about the human intuition that good QA brings to software: not just whether a feature works, but whether it makes sense to the person using it. I’ve also been wondering how we could make small graphical interfaces simpler to build.
 
-Last update: 2026-11-24
+Last update: 2026-11-25
