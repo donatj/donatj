@@ -12,14 +12,14 @@ I’ve spent fifteen years in EdTech keeping old systems running and new ones fr
 
 ### What I've been up to recently
 
-I released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. It has more emoji markers and a refreshed note dialog. ([github.com](https://github.com/donatj/hootanym/actions))
+I’ve released an update to [HootaNym](https://github.com/donatj/hootanym), my browser extension for keeping notes on Hacker News users. It has more emoji markers and a refreshed note dialog. ([github.com](https://github.com/donatj/hootanym/commits))
 
-I’ve been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rules and selectable redirect status codes. I also expanded [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of compatible tools and libraries, making it easier to find software that supports forced terminal colors. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
+I’ve also been experimenting with [RewriteRule Generator](https://github.com/donatj/RewriteRule-Generator), prototyping Caddy rules and selectable redirect status codes. Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on [normalizing input encodings](https://github.com/QuorumCollection/Exporter/pull/41) so spreadsheet exports can handle a wider range of text. ([github.com](https://github.com/donatj/RewriteRule-Generator/pull/45))
 
-Over in the Quorum Collection’s [Exporter](https://github.com/QuorumCollection/Exporter), I’m working on input encoding and export-engine options for the streamed spreadsheet library, including converting non-UTF-8 sheet data so it can be exported. ([github.com](https://github.com/QuorumCollection/Exporter/pull/41/commits))
+I’ve expanded [FORCE_COLOR](https://github.com/donatj/force-color.org)’s lists of supported tools and libraries, making it easier to see where terminal colors can be forced on. ([github.com](https://github.com/donatj/force-color.org/commits))
 
 ### What I have been thinking about
 
-I’ve been thinking about the human intuition good QA brings to software—not just checking whether a feature works, but whether it makes sense to use. I’ve also been wondering how we could make small graphical interfaces simpler to build.
+I’ve been thinking about the human intuition that good QA brings to software—not just whether something works, but whether it makes sense to the person using it. I’ve also been wondering how small graphical interfaces could be simpler to build.
 
-Last update: 2026-11-27
+Last update: 2026-11-28
